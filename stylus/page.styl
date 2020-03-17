@@ -1,0 +1,51 @@
+body
+	padding 0
+	margin 0
+	font-size 1em
+	line-height 1.25em
+	background-color #fafafa
+	& .view
+		padding initial
+// Avoid scroll issues
+.views
+	width 100%
+	height 100%
+	.collapse-bar
+		display none
+	&.split-views
+		display grid
+		overflow-x hidden
+		& > .view
+			overflow auto
+			box-sizing border-box
+			border-left 1px solid system-gray-5
+			&:last-child
+				background-color system-gray-6
+		&.split-1-3
+			grid-template-columns 33.3% 66.7%
+		&.split-2-3
+			grid-template-columns 66.7% 33.3%
+		&.split-1-2
+			grid-template-columns 50% 50%
+		&.split-small-large
+			grid-template-columns 250px auto
+		&.split-large-small
+			grid-template-columns auto 250px
+.view
+	width 100%
+	height 100%
+	overflow auto
+	background-color white
+	> *
+		padding 3px 1em
+@media screen and (max-width 600px)
+	.views.split-views
+		display flex
+		flex-direction column
+		.view
+			.collapse-bar
+				display block
+		> *:first-child
+			display none
+::selection
+	background-color rgb(209, 209, 209)

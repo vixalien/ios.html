@@ -1,0 +1,104 @@
+input[type=range],input[type=range]+.thumb {
+		cursor: pointer
+		height 40px
+}
+
+input[type=range] {
+		position: relative;
+		background-color: transparent;
+		border: none;
+		outline: none;
+		width: 100%;
+		padding: 0
+}
+
+input[type=range]
+	-webkit-appearance: none
+
+	&::-webkit-slider-runnable-track 
+		height: 2px;
+		background: link-color;
+		border: none
+
+	&::-webkit-slider-thumb
+		border: none;
+		height: 24px;
+		width: 24px;
+		border-radius: 50%;
+		background: white;
+		-webkit-transition: -webkit-box-shadow .3s;
+		transition: -webkit-box-shadow .3s;
+		transition: box-shadow .3s;
+		transition: box-shadow .3s, -webkit-box-shadow .3s;
+		-webkit-appearance: none;
+		background-color: white;
+		-webkit-transform-origin: 50% 50%;
+		transform-origin: 50% 50%
+		margin -10px 0 0 0
+		box-shadow 0px 2px 3px 2px system-gray-4
+
+input[type=range] {
+		border: 1px solid transparent
+}
+
+input[type=range]::-moz-range-track {
+		height: 2px;
+		background: white;
+		border: none
+}
+
+input[type=range]::-moz-focus-inner {
+		border: 0
+}
+
+input[type=range]::-moz-range-thumb {
+		border: none;
+		height: 24px;
+		width: 24px;
+		border-radius: 50%;
+		background: white;
+		-webkit-transition: -webkit-box-shadow .3s;
+		transition: -webkit-box-shadow .3s;
+		transition: box-shadow .3s;
+		transition: box-shadow .3s, -webkit-box-shadow .3s;
+		margin-top: -10px
+}
+
+input[type=range]:-moz-focusring {
+		outline: 1px solid #fff;
+		outline-offset: -1px
+}
+
+
+input[type=range]::-ms-track {
+		height: 2px;
+		background: transparent;
+		border-color: transparent;
+		border-width: 6px 0;
+		color: transparent
+}
+
+input[type=range]::-ms-fill-lower {
+		background: link-color
+}
+
+input[type=range]::-ms-fill-upper {
+		background: #ddd
+}
+
+input[type=range]::-ms-thumb {
+		border: none;
+		height: 24px;
+		width: 24px;
+		border-radius: 50%;
+		background: white;
+		margin-top 1px
+		-webkit-transition: -webkit-box-shadow .3s;
+		transition: -webkit-box-shadow .3s;
+		transition: box-shadow .3s;
+		transition: box-shadow .3s, -webkit-box-shadow .3s
+}
+
+.keyboard-focused input[type=range]:focus:not(.active)::-ms-thumb {
+		box-shadow: 0 0 0 10px rgba(38,166,154,0.26)
+}

@@ -1,0 +1,1241 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vali",
+				"validations"
+			],
+			[
+				"va",
+				"validations"
+			],
+			[
+				"valida",
+				"validators"
+			],
+			[
+				"parse",
+				"parseValidators"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"val",
+				"validators"
+			],
+			[
+				"chang",
+				"changestack\twarning"
+			],
+			[
+				"v",
+				"validators\tmethod"
+			],
+			[
+				"su",
+				"superposes\tparameter"
+			],
+			[
+				"super",
+				"superpose\tparameter"
+			],
+			[
+				"chan",
+				"changestack\twarning"
+			],
+			[
+				"change",
+				"changevalue\twarning"
+			],
+			[
+				"a",
+				"attrstack\tproperty"
+			],
+			[
+				"att",
+				"attrs\twarning"
+			],
+			[
+				"attri",
+				"attributes\tproperty"
+			],
+			[
+				"at",
+				"attributes\tproperty"
+			],
+			[
+				"par",
+				"parseattr"
+			],
+			[
+				"se",
+				"setattrs"
+			],
+			[
+				"cons",
+				"constructor"
+			],
+			[
+				"ne",
+				"neventstack"
+			],
+			[
+				"ev",
+				"event"
+			],
+			[
+				"bla",
+				"black-holes"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"get",
+				"get_ua"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"prevLine",
+				"prevLineIsHr\tlocal var"
+			],
+			[
+				"atte",
+				"attendance"
+			],
+			[
+				"loc",
+				"loc_updated_at"
+			],
+			[
+				"upda",
+				"updated_at"
+			],
+			[
+				"curr",
+				"current_session"
+			],
+			[
+				"sta",
+				"state_prov"
+			],
+			[
+				"lo",
+				"longitude"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"fl",
+				"flex"
+			],
+			[
+				"if",
+				"if\tif … end"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"add",
+				"addEventListener\tmethod"
+			],
+			[
+				"con",
+				"controller_name"
+			],
+			[
+				"emplo",
+				"employees"
+			],
+			[
+				"em",
+				"employees"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"all",
+				"allattendances"
+			],
+			[
+				"be",
+				"beginning_of_week"
+			],
+			[
+				"Date",
+				"DateTime"
+			],
+			[
+				"beg",
+				"beginning_of_day"
+			],
+			[
+				"la",
+				"layouts"
+			],
+			[
+				"dow",
+				"downcase"
+			],
+			[
+				"app",
+				"approved"
+			],
+			[
+				"nam",
+				"names"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"en",
+				"encrypted"
+			],
+			[
+				"coo",
+				"cookies"
+			],
+			[
+				"cur",
+				"current_session"
+			],
+			[
+				"empl",
+				"employee"
+			],
+			[
+				"ver",
+				"verbose_logged_in"
+			],
+			[
+				"paddin",
+				"padding-right\tproperty"
+			],
+			[
+				"fin",
+				"find"
+			],
+			[
+				"week",
+				"week_time"
+			],
+			[
+				"rec",
+				"recommended"
+			],
+			[
+				"re",
+				"recommended"
+			],
+			[
+				"recomm",
+				"recommended"
+			],
+			[
+				"Id",
+				"IdcardValidator"
+			],
+			[
+				"pass",
+				"password_params"
+			],
+			[
+				"p",
+				"password"
+			],
+			[
+				"new",
+				"new_day"
+			],
+			[
+				"fil",
+				"filter_params"
+			],
+			[
+				"u",
+				"ul\tTagx"
+			],
+			[
+				"l",
+				"li\tMy html plugins"
+			],
+			[
+				"fla",
+				"flash\tflash[…]"
+			],
+			[
+				"emi",
+				"email"
+			],
+			[
+				"class",
+				"class_name"
+			],
+			[
+				"styl",
+				"stylesheet"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"m",
+				"multiple\tAttr"
+			],
+			[
+				"fo",
+				"form\tTag"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"we",
+				"week-options"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"th",
+				"th\tTag"
+			],
+			[
+				"menu",
+				"menu-tog"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"sw",
+				"switchtype"
+			],
+			[
+				"sc",
+				"scoreholder\tparameter"
+			],
+			[
+				"sco",
+				"scoreholder\twarning"
+			],
+			[
+				"loca",
+				"location\tproperty"
+			],
+			[
+				"scr",
+				"scripts\twarning"
+			],
+			[
+				"push",
+				"pushState\tmethod"
+			],
+			[
+				"innerHT",
+				"innerHTML\twarning"
+			],
+			[
+				"local",
+				"localStorage\twarning"
+			],
+			[
+				"set",
+				"setItem\twarning"
+			],
+			[
+				"fet",
+				"fetchEvent\twarning"
+			],
+			[
+				"docu",
+				"documentElement\tproperty"
+			],
+			[
+				"remove",
+				"removeAttribute\twarning"
+			],
+			[
+				"loa",
+				"loads\twarning"
+			],
+			[
+				"quey",
+				"querySelectorAll\twarning"
+			],
+			[
+				"hint",
+				"hint_loan\twarning"
+			],
+			[
+				"que",
+				"querySelector\tmethod"
+			],
+			[
+				"init",
+				"initHandles\twarning"
+			],
+			[
+				"calc",
+				"calcscore\twarning"
+			],
+			[
+				"clac",
+				"calcscore\twarning"
+			],
+			[
+				"focus",
+				"focusnext\twarning"
+			],
+			[
+				"foc",
+				"focusnext\twarning"
+			],
+			[
+				"co",
+				"code\tTag"
+			],
+			[
+				"sp",
+				"special"
+			],
+			[
+				"le",
+				"length\twarning"
+			],
+			[
+				"ty",
+				"typeof\tkeyword"
+			],
+			[
+				"cu",
+				"current_id\twarning"
+			],
+			[
+				"ch",
+				"children\twarning"
+			],
+			[
+				"qu",
+				"querySelector\tmethod"
+			],
+			[
+				"regi",
+				"registerAll\twarning"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"word",
+				"word_hints\twarning"
+			],
+			[
+				"t",
+				"target\twarning"
+			],
+			[
+				"XML",
+				"XMLHttpRequest\tvar"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"off",
+				"offsetWidth\twarning"
+			],
+			[
+				"ss",
+				"ssid_params"
+			],
+			[
+				"g",
+				"generateuniquesecure"
+			],
+			[
+				"apr",
+				"approved_by"
+			],
+			[
+				"delete_",
+				"delete_prefixed"
+			],
+			[
+				"uplo",
+				"upload_params"
+			],
+			[
+				"no",
+				"noscript\tTag"
+			],
+			[
+				"inp",
+				"input-group"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "class Model {\n  constructor(attrs) {\n    // The initial state of the model, an array of objects, prepopulated with no data\n    this.objects = [\n    ];\n    this.attrs = attrs;\n  }\n\n  new(object) {\n  \tobject.id = this.objects.length > 0 ? this.objects[this.objects.length - 1].id + 1 : 1;\n  \tthis.objects.push(object);\n  }\n  \n  where(attribute, value, limit = Infinity) {\n  \tfound = []\n    for (var i = 0; i < this.objects.length; i++) {\n    \tif (this.objects[i][attribute] == value) {\n    \t\tfound += this.objects[i];\n    \t}\n    \tif (i == limit) {\n    \t\tbreak;\n    \t}\n    }\n    return found;\n  }\n\n  exist()\n\n  // Map through all todos, and replace the text of the todo with the specified id\n  editTodo(id, updatedText) {\n    this.todos = this.todos.map(todo =>\n      todo.id === id ? { id: todo.id, text: updatedText, complete: todo.complete } : todo\n    )\n  }\n\n  // Filter a todo out of the array by id\n  deleteTodo(id) {\n    this.todos = this.todos.filter(todo => todo.id !== id)\n  }\n\n  // Flip the complete boolean on the specified todo\n  toggleTodo(id) {\n    this.todos = this.todos.map(todo =>\n      todo.id === id ? { id: todo.id, text: todo.text, complete: !todo.complete } : todo\n    )\n  }\n}",
+			"settings":
+			{
+				"buffer_size": 1197,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "class nrecord {\n\tvalidators(validators) {\n\t\tthis.validators = parsevalidator(validators);\n\t}\n\n\tvalidate(newval, state) {\n\t\t/* Loop all our validators to see which validate this */\n\t\tfor (var i = 0; i < this.validators.length; i++) {\n\t\t\tif (this.validators[i][0] == oldstate.key) {\n\t\t\t\tif (this.validators[i][1] != 0) {\n\t\t\t\t\t/* Error: let's abort */\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\tchangeAttr(key, val, old, attrib) {\n\t\tchangestack.push({ attributes: this.attributes, at: Date.now })\n\t}\n\t\n\tconstructor(attributes, model, options) {\n\t\tif (model.name != \"nmodel\") {\n\t\t\treturn \"You passed a bad model\";\n\t\t} else {\n\t\t\tthis.changestack = [];\n\t\t\tthis.attributes = parseattrs(attributes, model.valida, {\n\t\t\t\tmodel: this,\n\t\t\t\tvalidator: this.validate(newval, oldstate),\n\t\t\t\tcallback: this.changeAttr(key, val, old, attrib),\n\t\t\t});\n\t\t}\n\t}\n}\n\nclass nmodel {\n\tconstructor(attributes, model, options = {}) {\n\t\tthis.attributes = parseattrs(attributes, null, {\n\t\t\tmodel: this,\n\t\t\tvalidator: this.validate(),\n\t\t\tcallback: this.changeAttr(),\n\t\t});\n\t}\n\n\tnew(attributes, options) {\n\t\treturn new nrecord(attributes, this, options);\n\t}\n}\n\nfunction newattr(key,value,type) {\n\tlet attr = {\n\t\tchanged: false,\n\t\tchangestack: [],\n\t\t_key: key,\n\t\tget key() {\n\t\t\treturn this._key;\n\t\t},\n\t\tset key(newval) {\n\t\t\tconsole.error(new Error(\"The key can't change\"));\n\t\t},\n\t\ttype: type,\n\t\t_value: value,\n\t\terrortext: `${key} not changed because an error occured`,\n\t\tvalidator: function(newval, oldstate) {},\n\t\tcallback: function(key,) {},\n\t\trecord: {},\n\t\tmodel: {},\n\t\tget value() {\n\t\t\treturn this._value;\n\t\t},\n\n\t\tset value(text) {\n\t\t\tthis.changed = true;\n\t\t\tthis.changestack.push(this._text);\n\t\t\told = this.value;\n\t\t\tret = this.validator(text, this);\n\t\t\tconsole.log(\"Returned\", ret);\n\t\t\tif (ret == 0) { \n\t\t\t\tthis._value = text;\n\t\t\t\tthis.callback(this.key, this.value, old, this);\n\t\t\t} else {\n\t\t\t\tconsole.error(this.errortext);\n\t\t\t}\n\t\t}\n\t};\n\treturn attr;\n}\n\n\n\nfunction parseattrs(attrs, base = [], superposes) {\n\tif (!base) {\n\t\tbase = [];\n\t}\n\tparsed = base;\n\tfor (attr in attrs) {\n\t\tval = attrs[attr];\n\t\tvar obj;\n\t\tif (typeof val == \"object\") {\n\t\t\tobj = new newattr(attr || val.key || val.name || val.attr || val.attribute, val.val || val.value || val.default, val.type || typeof key);\n\t\t} else {\n\t\t\tobj = new newattr(attr, val, undefined);\n\t\t}\n\t\tfor (pose in superposes) {\n\t\t\tobj[pose] = superposes[pose];\n\t\t};\n\t\tparsed.push(obj);\n\t}\n\treturn parsed;\n}\n\nfunction parsevalidator(validators) {\n\tparsed = [];\n\tfor (valid in validators) {\n\t\tif ((typeof validators[valid] == \"object\") && typeof (validators[valid].splite != \"undefined\")) { \n\t\t\tfor (var i = 0; i < validators[valid].length; i++) {\n\t\t\t\tparsed.push({ attr: valid, fn: validators[valid][i] });\n\t\t\t}\n\t\t} else {\n\t\t\tparsed.push({ attr: valid, fn: validators[valid] });\n\t\t}\n\t}\n\treturn parsed;\n}",
+			"file": "n.js",
+			"file_size": 2031,
+			"file_write_time": 132275220048879518,
+			"settings":
+			{
+				"buffer_size": 2809,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "class nrecord {\n\tconstructor(attributes, validators) {\n\t\tattributes = parseattrs(attributes, ) || {};\n\t\tthis.attributes = attributes;\n\t\tfor (var i = 0; i < attributes.length; i++) {\n\t\t\tthis[attributes[i].key] = attributes[i];\n\t\t}\n\t\tthis.validations = parseValidators(validators);\n\t}\n\n\tget errors() {\n\t\tvar errlist = [];\n\t\tvar attrs = this.attributes;\n\t\tfor (var i = 0; i < attrs.length; i++) {\n\t\t\tvar rules = this.validations[attrs[i].key];\n\t\t\tif (rules) {\n\t\t\t\tfor (var j = 0; j < rules.length; j++) {\n\t\t\t\t\tvar ret = rules[j](this[attrs[i].key].value);\n\t\t\t\t\tif (ret!=0) {\n\t\t\t\t\t\tvar record = this;\n\t\t\t\t\t\terrlist.push({attrib: attrs[i].key,error: ret});\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\treturn errlist;\n\t}\n\n\tget isValid() {\n\t\tif (this.errors.length == 0) {\n\t\t\treturn true;\n\t\t} else {\n\t\t\treturn false;\n\t\t}\n\t}\n}\n\nfunction parseValidators(validators) {\n\tvar parsed = {};\n\tfor(var valid in validators) {\n\t\tvar val = validators[valid];\n\t\tparsed[valid] = [val].flat();\n\t}\n\treturn parsed;\n}\n\nfunction newattr(key,value,type) {\n\tlet attr = {\n\t\tchanged: false,\n\t\tchangestack: [],\n\t\t_key: key,\n\t\tget key() {\n\t\t\treturn this._key;\n\t\t},\n\t\tset key(newval) {\n\t\t\tconsole.error(new Error(\"The key can't change\"));\n\t\t},\n\t\ttype: type,\n\t\t_value: value,\n\t\terrortext: `${key} not changed because an error occured`,\n\t\tcallback: function(key,) {},\n\t\trecord: {},\n\t\tmodel: {},\n\t\tget value() {\n\t\t\treturn this._value;\n\t\t},\n\n\t\tset value(text) {\n\t\t\tthis.changed = true;\n\t\t\tthis.changestack.push(this._text);\n\t\t\told = this.value;\n\t\t\tret = this.validator(text, this);\n\t\t\tconsole.log(\"Returned\", ret);\n\t\t\tif (ret == 0) { \n\t\t\t\tthis._value = text;\n\t\t\t\tthis.callback(this.key, this.value, old, this);\n\t\t\t} else {\n\t\t\t\tconsole.error(this.errortext);\n\t\t\t}\n\t\t}\n\t};\n\treturn attr;\n}\n\nfunction parseattrs(attrs, base = [], superposes, methods) {\n\tif (!base) {\n\t\tbase = [];\n\t}\n\tfor (method in methods) {\n\t\tparsed[method] = methods[method];\n\t}\n\tparsed = base;\n\tfor (attr in attrs) {\n\t\tval = attrs[attr];\n\t\tvar obj;\n\t\tif (typeof val == \"object\") {\n\t\t\tobj = new newattr(attr || val.key || val.name || val.attr || val.attribute, val.val || val.value || val.default, val.type || typeof key);\n\t\t} else {\n\t\t\tobj = new newattr(attr, val, undefined);\n\t\t}\n\t\tfor (pose in superposes) {\n\t\t\tobj[pose] = superposes[pose];\n\t\t};\n\t\tparsed.push(obj);\n\t}\n\treturn parsed;\n}",
+			"settings":
+			{
+				"buffer_size": 2298,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
+			"settings":
+			{
+				"buffer_size": 16077,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "/* An attributes parse */\nfunction parseattrs(attr) {\n\tfunction totalFlat(toflat) {\n\t\tvar flattened = toflat;\n\t\tvar containarr = true;\n\t\twhile (containarr == true) {\n\t\t\tcontainarr = false;\n\t\t\tfor (var i = 0; i < flattened.length; i++) {\n\t\t\t\tif ((typeof flattened[i].push != \"undefined\")&&(typeof flattened[i].splice != \"undefined\")) {\n\t\t\t\t\tcontainarr = true;\n\t\t\t\t}\n\t\t\t}\n\t\t\tflattened = flattened.flat();\n\t\t}\n\t\treturn flattened;\n\t}\n\tfunction str(text) {\n\t\t/* Check If It's not godamn JSON */\n\t\ttry {\n\t\t\t/* It is JSON */\n\t\t\tvar parse = JSON.parse(text);\n\t\t\treturn obj(parse);\n\t\t} catch {\n\t\t\t/* It is definitely a string */\n\t\t\treturn {key: text}\n\t\t}\n\t}\n\tfunction arr(list) {\n\t\ttotalFlat(list);\n\t\tvar results = [];\n\t\tfor (var i = 0; i < list.length; i++) {\n\t\t\ta = loop(list[i]);\n\t\t\tconsole.log(\"Current list item\",list[i]);\n\t\t\tconsole.log(\"Result of looping\",a);\n\t\t\tresults = results.concat(a);\n\t\t\tconsole.log(\"Updated results\",results);\n\t\t}\n\t\tconsole.log(\"The list\",list,\"The results\",results);\n\t\treturn results;\n\t}\n\tfunction obj(elem) {\n\t\t// This is just an object, parse it\n\t\tvar result = {};\n\t\tresult.key = elem.key;\n\t\tresult.default = elem.default;\n\t\tresult.type = elem.type;\n\t\treturn result;\n\t}\n\tfunction num(int) {\n\t\treturn {key: int.toString()}\n\t}\n\tfunction loop(attr) {\n\t\tvar results = [];\n\t\tif (typeof attr == \"string\") {\n\t\t\t/* First case: is a string */\n\t\t\tresults.push(str(attr));\n\t\t} else if ((typeof attr == \"object\")&&(typeof attr.push != \"undefined\")&&(typeof attr.splice != \"undefined\")) {\n\t\t\t/* Second Case: is an array */\n\t\t\tresults = arr(attr);\n\t\t} else\n\t\tif ((typeof attr == \"object\")) {\n\t\t\t/* Third Case: is an object */\n\t\t\tresults.push(obj(attr));\n\t\t} else\n\t\tif (typeof attr == \"number\") {\n\t\t\t/* Fourth Case: is a number */\n\t\t\tresults.push(num(attr));\n\t\t} else {\n\t\t\t/* FLast Case: invalid type */\n\t\t\tnew Error(\"ParseError: Don't know how to parse attribute with type\"+ typeof attr);\n\t\t\treturn 1;\n\t\t}\n\t\treturn results\n\t}\n\treturn loop(attr);\n}",
+			"settings":
+			{
+				"buffer_size": 1959,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "function obj(elem) {\n\t// This is just an object, parse it\n\tvar result = {};\n\tresult.key = elem.key;\n\tresult.default = elem.default;\n\tresult.type = elem.type;\n\treturn result;\n}\n\nfunction arr(list) {\n\ttotalFlat(list);\n\tvar results = []\n\tfor (var i = 0; i < list.length; i++) {\n\t\tresults.push(obj(list[i]))\n\t}\n\treturn results;\n}\n\nfunction totalFlat(toflat) {\n\tvar flattened = toflat;\n\tvar containarr = true;\n\twhile (containarr == true) {\n\t\tcontainarr = false;\n\t\tfor (var i = 0; i < flattened.length; i++) {\n\t\t\tif ((typeof flattened[i].push != \"undefined\")&&(typeof flattened[i].splice != \"undefined\")) {\n\t\t\t\tcontainarr = true;\n\t\t\t}\n\t\t}\n\t\tflattened = flattened.flat();\n\t}\n\treturn flattened;\n}",
+			"settings":
+			{
+				"buffer_size": 688,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C Single File.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Test"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Bench"
+				],
+				[
+					"Packages/Rust/Cargo.sublime-build",
+					"Clean"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					""
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Run"
+				],
+				[
+					"Packages/Rust/Rust.sublime-build",
+					"Build & Run"
+				]
+			],
+			[
+				"Packages/Rust/Cargo.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"type",
+				"TypeScript: Paste And Format"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"hello",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"html ra",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"typesc",
+				"TypeScript: Format Document"
+			],
+			[
+				"",
+				"TypeScript: Show Error List"
+			],
+			[
+				"packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"typpesc",
+				"TypeScript: Request Code Fixes"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"pack in",
+				"Package Control: Install Package"
+			],
+			[
+				"markdownl",
+				"MarkdownLivePreview: Open Preview"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 225.0,
+		"history":
+		[
+			"sublime",
+			"typescript",
+			"a",
+			"1+2",
+			"about",
+			"help",
+			"python",
+			"yaml",
+			"import yaml",
+			"clear",
+			"cls",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Sites/muzui",
+		"/C/Sites/muzui/js"
+	],
+	"file_history":
+	[
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/app.js",
+		"/C/Program Files/heroku cli/client/node_modules/@heroku-cli/plugin-pg-v5/lib/setter.js",
+		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/no-setter-return.js",
+		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/object-shorthand.js",
+		"/C/Users/Alien/Desktop/legacies/hello/w3shools/js/js_validation.html",
+		"/C/Sites/muzui/n.js",
+		"/C/Sites/muzui/manifest.json",
+		"/C/Sites/muzui/index.html",
+		"/C/Sites/muzui/features.json",
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/index.html",
+		"/C/Sites/muzui/js/app.js",
+		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/README.md",
+		"/C/Sites/muzui/sw.js",
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/vendor.js",
+		"/C/Sites/extraterrestal/manifest.json",
+		"/C/Sites/extraterrestal/index.html",
+		"/C/Sites/extraterrestal/js/app.js",
+		"/C/Sites/muzui/muzui.sublime-project",
+		"/C/Sites/rwarrims-beta/.git/COMMIT_EDITMSG",
+		"/C/Sites/rwarrims-beta/app/controllers/sessions_controller.rb",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/rst/rst.js",
+		"/C/Sites/rwarrims-beta/app/controllers/admin/leaves_controller.rb",
+		"/C/Sites/rwarrims-beta/app/controllers/leaves_controller.rb",
+		"/C/Sites/rwarrims-beta/app/views/admin/attendances/_panel.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/leaves/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/leaves/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/index.html.erb",
+		"/C/Sites/rwarrims-beta/Gemfile",
+		"/C/Sites/rwarrims-beta/app/views/attendances/new.html.erb",
+		"/C/Sites/rwarrims-beta/app/helpers/application_helper.rb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_admin_show_leave.html.erb",
+		"/C/Users/Alien/Downloads/guides/guides/source/asset_pipeline.md",
+		"/C/Sites/rwarrims-beta/app/views/leaves/index.pdf.erb",
+		"/C/Sites/rwarrims-beta/app/controllers/application_controller.rb",
+		"/C/Sites/rwarrims-beta/app/views/layouts/application.html.erb",
+		"/C/Sites/rwarrims/app/views/attendance/log.html.erb",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/theme/monokai.css",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/yaml/yaml.js",
+		"/C/Users/Alien/Desktop/Markdown/Markdown.sublime-syntax",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/markdown/markdown.js",
+		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/markdown/markdown-later.js",
+		"/C/Users/Alien/Desktop/motes.xml",
+		"/C/Sites/rwarrims-beta/config/initializers/assets.rb",
+		"/C/Sites/rwarrims-beta/app/views/layouts/admin.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/layouts/outside.html.erb",
+		"/C/Users/Alien/Downloads/Compressed/a.sh",
+		"/C/Sites/rwarrims-beta/app/views/index/index.html.erb",
+		"/C/Users/Alien/Downloads/a.sh",
+		"/C/Sites/rwarrims-beta/app/controllers/admin_controller.rb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/application.js.erb",
+		"/C/Sites/rwarrims-beta/app/views/attendances/_show.html.erb",
+		"/C/Sites/rwarrims-beta/config/environments/production.rb",
+		"/C/Sites/rwarrims-beta/app/assets/stylesheets/bundle.css.erb",
+		"/C/Sites/rwarrims-beta/config/environments/development.rb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/index.js",
+		"/C/Sites/rwarrims-beta/app/controllers/attendances_controller.rb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/attendances.js",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/documents.js.erb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/leaves.js.erb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/attendances.js.erb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/employees.js.erb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/sessions.js.erb",
+		"/C/Sites/rwarrims-beta/app/views/application/_error.html.erb",
+		"/C/Sites/rwarrims-beta/app/models/employee.rb",
+		"/C/Sites/rwarrims-beta/app/views/attendances/show.json.jbuilder",
+		"/C/Sites/rwarrims-beta/app/views/attendances/_attendance.json.jbuilder",
+		"/C/Sites/rwarrims-beta/app/controllers/employees_controller.rb",
+		"/C/Users/Alien/$1",
+		"/C/Sites/rwarrims-beta/app/views/admin/attendances/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/approve.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/attendances/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/employees/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/attendances/_panel.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/leaves/_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/_error.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/recommend.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_recommend_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/_admin_show_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/index.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/_show_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/admin/documents/_show_form.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/index/admin.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/leaves/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/employees/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/leaves/new.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/new.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/documents/edit.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/employees/show.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/sessions/index.html.erb",
+		"/C/Sites/rwarriui/css/all/v2/high.css",
+		"/C/Users/Alien/Downloads/guides/guides/source/form_helpers.md",
+		"/C/Users/Alien/Downloads/guides/guides/source/action_view_overview.md",
+		"/C/Sites/rwarrims-beta/app/views/leaves/_leave_show.html.erb",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/timescope.js",
+		"/C/Sites/rwarrims-beta/app/views/employees/new.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/employees/login.html.erb",
+		"/C/Sites/rwarrims-beta/app/views/employees/_login_form.html.erb",
+		"/C/Users/Alien/Downloads/guides/guides/source/getting_started.md",
+		"/C/Users/Alien/Downloads/guides/guides/source/layouts_and_rendering.md",
+		"/C/Sites/rwarrims-beta/app/assets/javascripts/bundle.js",
+		"/C/Users/Alien/Downloads/guides/guides/source/working_with_javascript_in_rails.md",
+		"/C/Ruby26/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/README.md",
+		"/C/Ruby26/lib/ruby/gems/2.6.0/gems/turbolinks-5.2.0/README.md",
+		"/C/Sites/rwarrims-beta/app/assets/stylesheets/application.css.erb",
+		"/C/Users/Alien/Downloads/guides/guides/source/routing.md",
+		"/C/Sites/rwarriui/css/raw/variables.css",
+		"/C/Sites/rwarrims-beta/app/assets/config/manifest.js",
+		"/C/Sites/rwarrims-beta/app/controllers/documents_controller.rb",
+		"/C/Sites/rwarrims-beta/app/views/index/help.html.erb",
+		"/C/Sites/rwarrims-beta/app/controllers/index_controller.rb",
+		"/C/Sites/rwarrims-beta/app/controllers/admin/attendances_controller.rb",
+		"/C/Users/Alien/Downloads/guides/guides/source/i18n.md",
+		"/C/Sites/rwarrims-beta/app/controllers/admin/documents_controller.rb",
+		"/C/Sites/rwarrims-beta/config/routes.rb",
+		"/C/Sites/rwarrims-beta/app/views/admin/employees/recruit.html.erb"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"get",
+			"ease",
+			"(\\n|\\t|\\r| ){1,}",
+			"(\\n|\\t|\\r| ){2,}",
+			"\\n",
+			"\"",
+			"console",
+			"extraterrestal"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			" ",
+			"",
+			"'",
+			"muz"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								603,
+								603
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 190.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "n.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2809,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2413,
+								1921
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1634.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2298,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								765,
+								769
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1959,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								1959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								597
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 132.0
+	},
+	"output.errorlist":
+	{
+		"height": 117.0
+	},
+	"output.exec":
+	{
+		"height": 33.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 463.0
+	},
+	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"project": "muzui.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 297.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+		"max_columns": 1
+	}
+}

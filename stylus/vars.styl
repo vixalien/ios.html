@@ -1,0 +1,45 @@
+link-color = #1c87ff
+
+system-gray-color = rgb(137, 137, 142)
+
+system-gray = rgb(142, 142, 147)
+system-gray-2 = rgb(174, 174, 178)
+system-gray-3 = rgb(199, 199, 204)
+system-gray-4 = rgb(209, 209, 214)
+system-gray-5 = rgb(229, 229, 234)
+system-gray-6 = rgb(242, 242, 247)
+
+system-dark-gray = rgb(142, 142, 147)
+system-dark-gray-2 = rgb(99, 99, 102)
+system-dark-gray-3 = rgb(72, 72, 74)
+system-dark-gray-4 = rgb(58, 58, 60)
+system-dark-gray-5 = rgb(44, 44, 46)
+system-dark-gray-6 = rgb(28, 28, 30)
+
+mask-image(args)
+	-webkit-mask-size cover;
+	mask-size cover
+	background args
+	background black
+	mask-image args
+	-webkit-mask-image args
+	
+appearance(args)
+	appearance args
+	-webkit-appearance args
+	-moz-appearance args
+	-o-appearance args
+	-ms-appearance args
+
+border-horizontal-spacing(val)
+	-webkit-border-horizontal-spacing val
+	-moz-border-horizontal-spacing val
+	-o-border-horizontal-spacing val
+	-ms-border-horizontal-spacing val
+	border-horizontal-spacing val
+border-vertical-spacing(val)
+	-webkit-border-vertical-spacing val
+	-moz-border-vertical-spacing val
+	-o-border-vertical-spacing val
+	-ms-border-vertical-spacing val
+	border-vertical-spacing val

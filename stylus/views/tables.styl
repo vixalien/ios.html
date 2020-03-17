@@ -1,0 +1,72 @@
+@import "../vars"
+
+div.table
+	width 100%
+	padding 0
+	&.navigable
+		> .body
+			> div
+				cursor pointer
+				&:hover
+					background-color rgba(system-gray-6, 0.5)
+				&:active
+					background-color system-gray-4
+	&.round
+		.body
+			border-radius 20px
+			border 1px solid system-gray-5
+	> .body
+		> *
+			> *:first-child
+				padding-left 10px
+	> .header, > .footer
+		background-color system-gray-6
+		color system-gray-color
+		font-size smaller
+		text-align inherit
+		margin-top 0
+	> .header
+		padding 25px 10px 5px 10px
+	> .footer
+		padding 10px
+		font-size small
+	> .body
+		border-top 1px solid system-gray-5
+		background-color white
+		display flex
+		flex-direction column
+		> *
+			padding 5px
+			border-bottom 1px solid system-gray-6
+			display flex
+			flex-direction row
+			justify-content space-between
+			min-height 30px
+			> *
+				margin auto 5px auto 0
+			> *:last-child:not(:first-child)
+				text-align right
+			.faded
+				color system-gray
+			img
+				width 24px
+				margin auto 5px !important
+			.next::after
+				content 'H'
+				color transparent
+				background url(/img/demo/right.svg)
+				width 34px
+				height auto
+				display inline-block
+				background-size 20px 20px
+				background-repeat no-repeat
+				background-position center
+				vertical-align inherit
+				margin auto 0
+				background-color inherit
+.inset
+	background-color system-gray-6
+	width auto
+	height auto
+	max-width 500px
+	margin auto

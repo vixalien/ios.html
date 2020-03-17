@@ -1,0 +1,101 @@
+[
+  {
+    "name": "composants",
+    "components": ["colors","shapes","ascent","text"],
+    "description": "very basic elements that provide style to all other components",
+    "colors": {
+      "elements": ["fore","back"],
+      "styles": ["block","alt","surface","gray","black","white"],
+      "variants": ["dark","light"]
+    },
+    "shapes": {
+      "variants": ["round","rect","curved"],
+      "styles": ["border-bottom","outline","filled","transparent"]
+    },
+    "ascent": {
+      "variants": ["plain","hover","raised","in-front"]
+    },
+    "text": {
+      "sizes": ["normal","sub","sup"],
+      "styles": ["upcase","downcase","normal"]
+    }
+  },
+  {
+    "name": "asteroids",
+    "components": ["typo","forms","buttons","layout","progress"],
+    "description": "low level elements which are used further up.",
+    "typo": {
+      "elements": ["headings","body","fonts","links","lists","tables","blockquote","toggle","ranges"],
+      "levels": ["plain"]
+    },
+    "forms": {
+      "elements": ["text inputs","checkboxes","labels","selects","text-areas"],
+      "additions": ["errors","notes","groups","prefix-group","underline","focus","counter"],
+      "levels": ["plain","surface","independent"]
+    },
+    "buttons": {
+      "levels": ["plain","independent"]
+    },
+    "layout": {
+      "elements": ["flex", "grid", "container"]
+    }
+  },
+  {
+    "name": "addons",
+    "components": ["progress"],
+    "description": "provide basic addons to use with other elements",
+    "progress": {
+      "variants": ["indeterminate"]
+    }
+  }
+  {
+    "name": "planets",
+    "components": ["cards","deck","menu","notif","details","badges"],
+    "description": "medium level elements which can mess up design when badly used",
+    "cards": {
+      "elements": ["header","text","menu"],
+      "additions": ["buttons","image","icon"],
+      "variants": ["imgonly"],
+      "levels": ["plain","surface"]
+    },
+    "deck": {
+      "additions": ["controls","transition","indicators","autoplay"],
+      "levels": ["plain","surface","independent"]
+    },
+    "menu": {
+      "elements": ["horizontal","vertical"],
+      "additions": ["drop","minimg","secondary","desription"],
+      "levels": ["plain","surface","independent","float"]
+    },
+    "notif": {
+      "variants": ["block","alt","yellow","black","blue"],
+      "additions": ["close"],
+      "levels": ["surface","float"]
+    },
+    "details": "",
+    "badges": ""
+  },
+  {
+    "name": "stars",
+    "components": ["bars","dialogs"],
+    "description": "complex elements that allow easy styling of complex stuff",
+    "bars": {
+      "elements": ["appbar", "sidebar", "tabbar", "footer"],
+      "additions": ["borders","togglers"],
+      "levels": ["plain","surface","independent"]
+    },
+    "pops": {
+      "elements": ["dialog","drawer"],
+      "levels": ["float"]
+    }
+  },
+  {
+    "name": "black-holes",
+
+    "description": "a nominal level that provide extras",
+    "components": ["ghost"],
+    "ghost": {
+      "styles": ["colors","borders","size"]
+    }
+  }
+]

@@ -1,0 +1,29 @@
+a
+	margin 0
+	font-size inherit
+	text-decoration none
+	color link-color !important
+	&:active
+		background-color system-gray-5
+
+button
+	text-align inherit
+	appearance none
+	background-color transparent
+	border 0
+	font-size 1em
+	font-weight inherit
+	padding 0
+	& > a
+		padding 10px 3px
+		&:active
+			background-color initial
+	&.block
+		& > a
+			padding 10px 0
+			width inherit
+		display flex
+		width 100%
+
+button, a
+	cursor pointer

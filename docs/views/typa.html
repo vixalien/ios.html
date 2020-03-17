@@ -1,0 +1,165 @@
+<div class="view">
+	<div contenteditable>
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et <b>dolore</b> magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis <a href="#hello">aute</a> irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. <i>Excepteur</i> sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	<p>
+		You won't edit this!
+	</p>
+	<div class="popup">
+		<a id="italic">Italic</a>
+		<a id="under">Underline</a>
+		<a id="bold">Bold</a>
+	</div>
+</div>
+<style type="text/css">
+	.popup {
+		display: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		border-radius: 3px;
+		background-color: white;
+		box-shadow: 0 2px 4px rgb(142, 142, 142);
+		padding: 0 !important;
+	}
+	.popup > a {
+		margin: 3px;
+		padding: 5px 1em;
+	}
+	.popup > a.present {
+    background: darkslategray;
+    border-radius: 3px;
+	}
+	.popup.active {
+		display: flex;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+<script type="text/javascript">
+
+	class EditView {
+		constructor(elem) {
+			if(elem) {
+				this.elem = elem;
+			} else {
+				throw new Error("Element not found");
+			}
+			this.s = document.getSelection();
+			document.onselectionchange = e => this.updateSelection(e);
+			this.initPopup();
+		}
+
+		italic() {
+			document.execCommand( 'italic', false );
+			this.updatePopup();
+		}
+		under() {
+			document.execCommand( 'underline', false );
+			this.updatePopup();
+		}
+		bold() {
+			document.execCommand( 'bold', false );
+			this.updatePopup();
+		}
+
+		initPopup() {
+			var popup = document.getElementsByClassName('popup')[0];
+			this.italicE = popup.querySelector('#italic')
+			this.italicE.onclick = e => this.italic();
+			this.underE = popup.querySelector('#under')
+			this.underE.onclick = e => this.under();
+			this.boldE = popup.querySelector('#bold')
+			this.boldE.onclick = e => this.bold();
+		}
+
+		handleClick(e) {
+			var popup = document.getElementsByClassName('popup')[0];
+			if(!e.path.includes(popup)) {
+				popup.classList.remove("active");
+			} else {
+				document.onmouseup = function() {};
+				document.onscroll = function() {};
+				e.preventDefault();
+			}
+		}
+
+		displayPopup(selectionev, mouseev) {
+			// Look out for underlines and stuff
+			this.updatePopup();
+			// Activate the popup
+			var popup = document.getElementsByClassName('popup')[0];
+			popup.classList.add("active");
+			// Calculate whether to put the popup above or below
+			this.updatePopupPosition(popup);
+			document.onscroll = this.updatePopupPosition(popup);
+			document.onresize = this.updatePopupPosition(popup);
+			// When the mouse clicks, remove the pop up
+			document.onclick = function() {};
+			var o = this;
+			setTimeout(function() {
+				document.onmousedown = e => o.handleClick(e);
+			}, 10);
+		}
+
+		updateSelection(e) {
+			if (this.s.type == "Range") {
+				var o = this;
+				document.onmouseup = function(ev) {
+					if(ev.path.includes(o.elem)) {
+						o.displayPopup(e, ev);
+					}
+				}
+			} else {
+				document.onmouseup = function() {}
+			}
+		}
+
+		updatePopupPosition(popup) {
+			var selection = window.getSelection();
+			var range = selection.getRangeAt(0);
+			var boundary = range.getBoundingClientRect();
+			
+			popup.style.top = boundary.top - 15 + window.pageYOffset - popup.offsetHeight + "px";
+			popup.style.left = (boundary.left + boundary.right)/2 - (popup.offsetWidth/2) + "px";
+		}
+
+		hasNode( nodeList, name ) {
+			return !!nodeList[ name ];
+		}
+
+		findNodes( element ) {
+			var nodeNames = {};
+			// Internal node?
+			var selection = window.getSelection();
+			// if( selection.containsNode( document.querySelector('b'), false ) ) {
+			// 	nodeNames[ 'B' ] = true;
+			// }
+			while ( element.parentNode ) {
+				nodeNames[element.nodeName] = true;
+				element = element.parentNode;
+				if ( element.nodeName === 'A' ) {
+					nodeNames.url = element.href;
+				}
+			}
+			return nodeNames;
+		}
+
+		updatePopup() {
+			var nodes = this.findNodes(this.s.focusNode);
+			var edits = {U: "under", B: "bold", I: "italic"};
+			for(var edit in edits) {
+				if(this.hasNode(nodes, edit)) {
+					this[edits[edit]+"E"].classList.add("present");
+				} else {
+					this[edits[edit]+"E"].classList.remove("present");
+				}
+			}
+		}
+	}
+	a = new EditView(document.querySelector("[contenteditable]"));
+</script>

@@ -1,0 +1,167 @@
+.nav-bar {
+  border-bottom: 1px solid #e5e5ea;
+  backdrop-filter: saturate(180%) blur(20px);
+  position: sticky;
+  top: 0;
+  background-color: rgba(242,242,247,0.7);
+}
+.nav-bar.transparent {
+  backdrop-filter: none;
+  background-color: transparent;
+  border-bottom: transparent;
+}
+.nav-bar .lead-title {
+  transition: 0.3s;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 32px;
+  display: none;
+}
+.nav-bar .float-bar {
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+}
+.nav-bar .title {
+  transition: 0.3s;
+  flex: 10;
+  margin: 0;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: normal;
+  transition: 0.3s;
+}
+.nav-bar a {
+  flex: 1;
+}
+.nav-bar a:first-child {
+  text-align: left;
+}
+.nav-bar a:last-child {
+  text-align: right;
+}
+.nav-bar a.back {
+  position: relative;
+}
+.nav-bar a.back:before {
+  content: 'H';
+  position: absolute;
+  left: -22px;
+  top: -5px;
+  background-image: url("/img/chevron_right.svg");
+  width: 20px;
+  height: 30px;
+  background-size: 30px;
+  background-repeat: no-repeat;
+  color: transparent;
+  display: inline-block;
+  transition: 0.12s;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+  background: url("/img/chevron_right.svg");
+  background: #000;
+  mask-image: url("/img/chevron_right.svg");
+  -webkit-mask-image: url("/img/chevron_right.svg");
+  background-color: #1c87ff;
+}
+.view.lead .lead-title {
+  display: block;
+  width: initial;
+  height: initial;
+  text-align: inherit;
+}
+.view.lead .title {
+  opacity: 0;
+  visibility: hidden;
+}
+h1.center,
+h2.center,
+h3.center,
+h4.center,
+h5.center,
+h6.center {
+  transition: 0.3s;
+  flex: 10;
+  margin: 0;
+  padding: 28px;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: 0.3s;
+}
+.search-bar {
+  width: 100%;
+}
+.search-bar input {
+  border: 0;
+  width: 100%;
+  padding: 0.5em;
+  background-color: #e5e5ea;
+  outline: none;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+.tab-bar {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  text-align: center;
+  border-top: 1px solid rgba(51,51,51,0.2);
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.tab-bar img {
+  width: 24px;
+  display: block;
+  padding: 0;
+  margin: auto;
+}
+.tab-bar > .tab {
+  font-size: 12px;
+  flex: 1;
+  text-align: center;
+}
+.tab-bar > .tab.active {
+  color: #1c87ff;
+}
+.tab-bar.inline {
+  border-top: unset;
+  position: initial;
+}
+.tool-bar {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: auto;
+  text-align: center;
+  border-top: 1px solid rgba(51,51,51,0.2);
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.tool-bar img {
+  width: 24px;
+  display: block;
+  padding: 0;
+  margin: auto;
+  color: #1c87ff;
+  fill: #1c87ff;
+}
+.tool-bar > .tool {
+  color: #1c87ff;
+  font-size: 12px;
+  flex: 1;
+  text-align: center;
+}
+.tool-bar > .tool.disabled {
+  color: #8e8e93;
+}
+.tool-bar.inline {
+  border-top: unset;
+  position: auto;
+}

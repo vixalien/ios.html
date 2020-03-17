@@ -1,0 +1,212 @@
+<div class="views">
+	<div class="view lead active" id="view1">
+		<div class="view-head">
+			<div class="view-bar">
+				<h2 class="view-title">Home</h2>
+			</div>
+			<h2 class="view-lead-title">Home</h2>
+		</div>
+		<div class="view-body">
+			<main>
+				<h1>view.n.js</h1>
+				<p>
+					View is all about displaying and clicking back buttons without
+					messing stuff up.
+				</p>
+				<p>
+					It is up to you to fetch stuff from the network.</p>
+				<p>
+					There is a stack, which keeps track of all the views opened.
+					Now the stack is empty.
+				</p>
+				<code class="block">
+					stack: []
+				</code>
+				<p>
+					When the page loads, a new <code>View</code> is made and it is
+					registered, being pushed to the stack, we can come back to it later.
+				</p>
+				<code></code>
+				<a href="#view2" class="button">Next</a>
+				<a href="#view3" class="block">Jump</a>
+
+			</main>
+		</div>
+	</div>
+	<div class="view lead" id="view2">
+		<div class="view-head">
+			<div class="view-bar">
+				<h2 class="view-title">Home</h2>
+			</div>
+			<h2 class="view-lead-title">Home</h2>
+		</div>
+		<div class="view-body">
+			<main>
+				<h1>view.n.js</h1>
+				<div class="content">
+					<p>
+						This view is automatically pushed onto the view. You can manually swipe back to the last view.
+					</p>
+					<p>
+						Because this view declares a stack, the stack is created on initialization. This means you can refresh the page and still manually swipe back.
+					</p>
+					<code class="block">
+						stack: ["level1", "level2"]
+					</code>
+					<a href="#view2" class="button">Next</a>
+					<a href="#view3" class="block">Jump</a>
+
+			</main>
+		</div>
+	</div>
+</div>
+<style type="text/css">
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: Roboto;
+		font-size: 1.1em;
+    text-align: center;
+    font-family: monospace;
+    line-height: 1.25em;
+	}
+	.views {
+		width: 100%;
+		height: 100%;
+		background-color: white;
+	}
+	.view {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		overflow: auto;
+		background-color: white;
+		display: none;
+	}
+	.view.active {
+		display: block;
+	}
+	.view-head {
+		padding: 10px;
+		background-color: rgba(21, 168, 157, 0.7);
+		backdrop-filter: saturate(180%) blur(20px);
+    position: sticky;
+    top: 0;
+    color: white;
+	}
+	.view-bar {
+		display: flex;
+		padding: 5px 0;
+	}
+	.view-head a,.view-title,.view-lead-title {
+		margin: 0;	
+		font-size: 1rem;
+		text-decoration: none;
+	}
+	.view-head a {
+		color: white !important;
+		min-width: 3em;
+	}
+	.view-head a:first-child {
+		text-align: left;
+	}
+	.view-head a:last-child {
+		text-align: right;
+	}
+	.view-head a, .view-lead-title {
+		margin: 0 10px;
+	}
+	.view-head a.back {
+		position: relative;
+	}
+	.view-head a.back:before {
+		content: 'H';
+    position: absolute;
+    left: -22px;
+    top: -5px;
+    background-image: url(img/chevron_right.svg);
+    width: 20px;
+    height: 30px;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    color: transparent;
+	}
+	.view-head .view-title {
+		flex: 1;
+		text-align: center;
+		font-size: 1.1em;
+		font-weight: bold;
+		transition: .3s;
+	}
+	.view-lead-title {
+		font-size: 2em;
+		margin-top: 5px;
+		display: none;
+		transition: .3s;
+		width: 0;
+		height: 0;
+	}
+	.view.lead .view-lead-title {
+		display: block;
+		width: initial;
+		height: initial;
+	}
+	.view.lead .view-title {
+		opacity: 0;
+		visibility: hidden;
+	}
+	.view-body {
+		padding: 10px 20px;
+		padding-top: 0;
+	}
+	a {
+		color: black !important;
+		text-decoration: none;
+	}
+	code {
+		padding: 2px 5px;
+    background-color: rgb(242, 242, 242);
+    border: 0;
+    border-radius: 4px;
+	}
+	.block {
+		display: block;
+    margin-top: 10px;
+    padding: 10px;
+	}
+	.button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer
+	}
+
+	.button:active {
+	  background: rgba(0,0,0,.1)
+	}
+</style>
+<script type="text/javascript">
+	var leads = document.querySelectorAll(".view.lead");
+	for (var i = 0; i < leads.length; i++) {
+		leads[i].onscroll = function(e) {
+			if(e.target.scrollTop == 0) {
+				e.target.classList.add("lead");
+			} else {
+				e.target.classList.remove("lead");
+			}
+		}
+	}
+
+</script>
+<script type="text/javascript" src="/js/view.js"></script>
+<script type="text/javascript">
+	var views = document.querySelectorAll(".view");
+	var vrs = [];
+	for (var i = 0; i < views.length; i++) {
+		vrs[i] = new nview({ elem: views[i]});
+	}
+</script>

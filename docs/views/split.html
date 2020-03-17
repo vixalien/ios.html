@@ -1,0 +1,68 @@
+<div class="split-views views split-1-3">
+	<div class="view lead primary-view">
+		<header class="nav-bar">
+			<nav class="float-bar">
+				<h1 class="title">iOS UI</h1>
+			</nav>
+			<h1 class="lead-title">iOS-UI</h1>
+		</header>
+		<div class="table nav-table navigable">
+			<div class="body">
+				<div>
+					<span>A small library to ressemble iOS in HTML-CSS-JS.</span>
+				</div>
+			</div>
+		</div>
+	</div>
+	<iframe class="view secondary-view" src="/docs/main.html">
+		You would need a recent browser to display this
+	</iframe>
+</div>
+
+<style type="text/css">
+	.secondary-view {
+		border: 0;
+	}
+	[href] {
+		cursor: pointer;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="/css/app.css">
+<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/router.js"></script>
+<script type="text/javascript" src="/js/written.min.js"></script>
+<script type="text/javascript" class="nav-builder">
+	var list = {
+		bars: ["nav","search","tab","tool"],
+		controls: ["buttons","segmented controls","slider","steppers","switches","text-fields"],
+		views: ["alerts","grouped","split","table","tables","typa"]
+	}
+	for(it in list) {
+		var elem = "";
+		elem += "<div class='header'>"+written.capitalizeAll(it)+"</div>";
+		elem += "<div class='body'>";
+		for (var i = 0; i < list[it].length; i++) {
+			elem+= "<div href='/docs/"+it+"/"+list[it][i].replace(" ","")+".html'><span>"+written.capitalizeAll(list[it][i])+"</span><span class='next'></span></div>";
+		}
+		elem += "</div><div class='footer'></div>";
+		document.querySelector(".nav-table").innerHTML += elem;
+	}
+</script>
+<script type="text/javascript" class="hooker">
+	// Init a router
+	var router = new nrouter({baseClass: ".secondary-view"})
+	var hrefs = document.querySelectorAll("[href]");
+	for (var i = 0; i < hrefs.length; i++) {
+		hrefs[i].onclick = function(e) {
+			e.preventDefault();
+			var trueEl = e.path.find(e => e.hasAttribute("href"));
+			console.log("Registering",trueEl.getAttribute("href"))
+			router.show(trueEl.getAttribute("href"));
+		}
+	}
+</script>
+<script type="text/javascript">
+	router.on("navigate", function(ev) {
+		console.log("El");
+	})
+</script>

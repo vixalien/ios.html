@@ -1,0 +1,74 @@
+@import "../vars"
+
+.nav-bar
+	border-bottom 1px solid system-gray-5
+	backdrop-filter saturate(180%) blur(20px)
+	position sticky
+	top 0
+	background-color rgba(system-gray-6 , 0.7)
+	&.transparent
+		backdrop-filter none
+		background-color transparent
+		border-bottom transparent
+	.lead-title
+		transition .3s
+		margin-top 20px
+		margin-bottom 10px
+		font-weight 600
+		line-height 32px
+		display none
+	.float-bar
+		width 100%
+		display flex
+		padding 10px 0
+	.title
+		transition .3s
+		flex 10
+		margin 0
+		text-align center
+		font-size 1.1em
+		font-weight normal
+		transition .3s
+	a
+		flex 1
+		&:first-child
+			text-align left
+		&:last-child
+			text-align right
+		&.back
+			position relative
+			&:before
+				content 'H'
+				position absolute
+				left -22px
+				top -5px
+				background-image url(/img/chevron_right.svg)
+				width 20px
+				height 30px
+				background-size 30px
+				background-repeat no-repeat
+				color transparent
+				display inline-block
+				transition .12s
+				mask-image url(/img/chevron_right.svg)
+				background-color link-color
+.view.lead
+	.lead-title
+		display block
+		width initial
+		height initial
+		text-align inherit
+	.title
+		opacity 0
+		visibility hidden
+
+h1, h2, h3, h4, h5, h6
+	&.center
+		transition .3s
+		flex 10
+		margin 0
+		padding 28px
+		text-align center
+		font-size 1.1em
+		font-weight bold
+		transition .3s

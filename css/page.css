@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 1em;
+  line-height: 1.25em;
+  background-color: #fafafa;
+}
+body .view {
+  padding: initial;
+}
+.views {
+  width: 100%;
+  height: 100%;
+}
+.views .collapse-bar {
+  display: none;
+}
+.views.split-views {
+  display: grid;
+  overflow-x: hidden;
+}
+.views.split-views > .view {
+  overflow: auto;
+  box-sizing: border-box;
+  border-left: 1px solid system-gray-5;
+}
+.views.split-views > .view:last-child {
+  background-color: system-gray-6;
+}
+.views.split-views.split-1-3 {
+  grid-template-columns: 33.3% 66.7%;
+}
+.views.split-views.split-2-3 {
+  grid-template-columns: 66.7% 33.3%;
+}
+.views.split-views.split-1-2 {
+  grid-template-columns: 50% 50%;
+}
+.views.split-views.split-small-large {
+  grid-template-columns: 250px auto;
+}
+.views.split-views.split-large-small {
+  grid-template-columns: auto 250px;
+}
+.view {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #fff;
+}
+.view > * {
+  padding: 3px 1em;
+}
+@media screen and (max-width: 600px) {
+  .views.split-views {
+    display: flex;
+    flex-direction: column;
+  }
+  .views.split-views .view .collapse-bar {
+    display: block;
+  }
+  .views.split-views > *:first-child {
+    display: none;
+  }
+}
+::selection {
+  background-color: #d1d1d1;
+}
