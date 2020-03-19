@@ -1,58 +1,102 @@
+
+/* line 297 : C:\sites\muzui\stylus\typo.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\sites\muzui\stylus\typo.styl */
 html {
   font-family: /* Antipode */ Antipode, system-ui, /* macOS 10.11-10.12 */ -apple-system, /* Windows 6+ */ "Segoe UI", /* Android 4+ */ "Roboto", /* Ubuntu 10.10+ */ "Ubuntu", /* Gnome 3+ */ "Cantarell", /* KDE Plasma 5+ */ "Noto Sans", /* fallback */ sans-serif, /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji", /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
 }
+
+/* line 18 : C:\sites\muzui\stylus\typo.styl */
 code,
 kbd,
 samp,
 pre {
   font-family: /* macOS 10.10+ */ "Menlo", /* Windows 6+ */ "Consolas", /* Android 4+ */ "Roboto Mono", /* Ubuntu 10.10+ */ "Ubuntu Monospace", /* KDE Plasma 5+ */ "Noto Mono", /* KDE Plasma 4+ */ "Oxygen Mono", /* Linux/OpenOffice fallback */ "Liberation Mono", /* fallback */ monospace, /* macOS emoji */ "Apple Color Emoji", /* Windows emoji */ "Segoe UI Emoji", /* Windows emoji */ "Segoe UI Symbol", /* Linux emoji */ "Noto Color Emoji";
 }
+
+/* line 36 : C:\sites\muzui\stylus\typo.styl */
 h1,
 .large {
   font-weight: 600;
   font-size: 34px;
   margin-top: 41px;
 }
+
+/* line 40 : C:\sites\muzui\stylus\typo.styl */
 h2 {
   font-weight: 600;
   font-size: 28px;
   margin-top: 34px;
 }
+
+/* line 44 : C:\sites\muzui\stylus\typo.styl */
 h3 {
   font-weight: 600;
   font-size: 22px;
   margin-top: 28px;
 }
+
+/* line 48 : C:\sites\muzui\stylus\typo.styl */
 h4 {
   font-weight: 600;
   font-size: 20px;
   margin-top: 25px;
 }
+
+/* line 52 : C:\sites\muzui\stylus\typo.styl */
 h5 {
   font-weight: 700;
   font-size: 17px;
   margin-top: 22px;
 }
+
+/* line 56 : C:\sites\muzui\stylus\typo.styl */
 body {
   font-weight: normal;
   font-size: 17px;
   margin-top: 22px;
 }
+
+/* line 60 : C:\sites\muzui\stylus\typo.styl */
 .light {
   font-weight: normal;
   font-size: 16px;
   margin-top: 21px;
 }
+
+/* line 64 : C:\sites\muzui\stylus\typo.styl */
 h6 {
   font-weight: normal;
   font-size: 15px;
   margin-top: 20px;
 }
+
+/* line 68 : C:\sites\muzui\stylus\typo.styl */
 .footnote {
   font-weight: normal;
   font-size: 13px;
   margin-top: 18px;
 }
+
+/* line 72 : C:\sites\muzui\stylus\typo.styl */
 .small,
 small,
 caption {
@@ -60,12 +104,16 @@ caption {
   font-size: 12px;
   margin-top: 16px;
 }
+
+/* line 76 : C:\sites\muzui\stylus\typo.styl */
 .smaller,
 caption.small {
   font-weight: normal;
   font-size: 11px;
   margin-top: 13px;
 }
+
+/* line 81 : C:\sites\muzui\stylus\typo.styl */
 hr {
   width: 100%;
   background: system-gray-2;

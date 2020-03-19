@@ -1,8 +1,44 @@
+
+/* line 297 : C:\sites\muzui\stylus\view.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
+
+/* line 1 : C:\sites\muzui\stylus\view.styl */
 .views {
   width: 100%;
   height: 100%;
   background-color: #fff;
 }
+
+/* line 6 : C:\sites\muzui\stylus\view.styl */
 .view {
   position: absolute;
   left: 0;
@@ -13,6 +49,8 @@
   background-color: #fff;
   display: none;
 }
+
+/* line 16 : C:\sites\muzui\stylus\view.styl */
 .view.active {
   display: block;
 }

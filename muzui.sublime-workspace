@@ -4,6 +4,410 @@
 		"selected_items":
 		[
 			[
+				"rel",
+				"relative\twarning"
+			],
+			[
+				"pa",
+				"pathname\twarning"
+			],
+			[
+				"rela",
+				"relativeToBaseDir\tlocal function"
+			],
+			[
+				"abs",
+				"absPath\tlocal var"
+			],
+			[
+				"base",
+				"baseDir\tparameter"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"tra",
+				"translate\tproperty"
+			],
+			[
+				"set",
+				"setTimeout\tfunction"
+			],
+			[
+				"over",
+				"overflowX\tproperty"
+			],
+			[
+				"class",
+				"classList\twarning"
+			],
+			[
+				"loc",
+				"location\tvar"
+			],
+			[
+				"show",
+				"showContent\tmethod"
+			],
+			[
+				"string",
+				"stringify\tmethod"
+			],
+			[
+				"loca",
+				"localStorage\tvar"
+			],
+			[
+				"bas",
+				"baseClass\twarning"
+			],
+			[
+				"quer",
+				"querySelector\tmethod"
+			],
+			[
+				"Na",
+				"NavigUtils"
+			],
+			[
+				"co",
+				"computedStyleMap"
+			],
+			[
+				"f",
+				"fun\tFunction"
+			],
+			[
+				"from",
+				"from_box"
+			],
+			[
+				"get",
+				"getBoundingClientRect"
+			],
+			[
+				"childe",
+				"childNodes\tproperty"
+			],
+			[
+				"crea",
+				"createElement\tmethod"
+			],
+			[
+				"secon",
+				"secondary-view"
+			],
+			[
+				"find",
+				"findIndex\tmethod"
+			],
+			[
+				"remo",
+				"removeAttribute\tmethod"
+			],
+			[
+				"with",
+				"withsrc\tlocal var"
+			],
+			[
+				"res",
+				"responseText\tproperty"
+			],
+			[
+				"gr",
+				"grid-template-columns"
+			],
+			[
+				"sys",
+				"system-gray-5"
+			],
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"ca",
+				"caption\tTag"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"con",
+				"contenteditable"
+			],
+			[
+				"up",
+				"updatePopup"
+			],
+			[
+				"upd",
+				"updatePopup"
+			],
+			[
+				"paddi",
+				"padding\tproperty"
+			],
+			[
+				"box-",
+				"box-shadow\tproperty"
+			],
+			[
+				"off",
+				"offsetHeight"
+			],
+			[
+				"pop",
+				"popup"
+			],
+			[
+				"dis",
+				"displayPopup"
+			],
+			[
+				"sy",
+				"system-gray-6"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"w",
+				"webkit-border-horizontal-spacing"
+			],
+			[
+				"clss",
+				"classList\tproperty"
+			],
+			[
+				"is",
+				"isArray\tmethod"
+			],
+			[
+				"appe",
+				"appendChild\tmethod"
+			],
+			[
+				"clas",
+				"classList\twarning"
+			],
+			[
+				"q",
+				"querySelectorAll\tmethod"
+			],
+			[
+				"cla",
+				"classList\twarning"
+			],
+			[
+				"ta",
+				"tagName\twarning"
+			],
+			[
+				"app",
+				"appendChild\tmethod"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"tar",
+				"target\tproperty"
+			],
+			[
+				"re",
+				"registerAll\tproperty"
+			],
+			[
+				"sto",
+				"stopImmediatePropagation\tmethod"
+			],
+			[
+				"cont",
+				"contextmenu\tAttr"
+			],
+			[
+				"ti",
+				"timeout\tsetTimeout function"
+			],
+			[
+				"do",
+				"document\tvar"
+			],
+			[
+				"optio",
+				"options\tparameter"
+			],
+			[
+				"ge",
+				"getElementById\tmethod"
+			],
+			[
+				"se",
+				"Selector"
+			],
+			[
+				"sele",
+				"selector\twarning"
+			],
+			[
+				"nv",
+				"nview\tclass"
+			],
+			[
+				"local",
+				"localStorage\tvar"
+			],
+			[
+				"Re",
+				"Request\tvar"
+			],
+			[
+				"vi",
+				"view-title"
+			],
+			[
+				"opti",
+				"options\tparameter"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"view-",
+				"view-title"
+			],
+			[
+				"font-",
+				"font-family\tproperty"
+			],
+			[
+				"one",
+				"oneEl"
+			],
+			[
+				"for",
+				"for\tfor (…) {…}"
+			],
+			[
+				"slide",
+				"slideExit"
+			],
+			[
+				"qu",
+				"querySelector"
+			],
+			[
+				"view",
+				"view-head"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"slid",
+				"slidePreinit"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"t",
+				"targets\twarning"
+			],
+			[
+				"te",
+				"text\twarning"
+			],
+			[
+				"act",
+				"actions\twarning"
+			],
+			[
+				"cre",
+				"createElement\tmethod"
+			],
+			[
+				"defa",
+				"defaults\tlocal var"
+			],
+			[
+				"ar",
+				"arguments\tparameter"
+			],
+			[
+				"arg",
+				"arguments\tlocal var"
+			],
+			[
+				"i",
+				"includes"
+			],
+			[
+				"atr",
+				"attributes"
+			],
+			[
+				"ne",
+				"nrecord"
+			],
+			[
+				"attr",
+				"attributes"
+			],
+			[
+				"_",
+				"_attrs_"
+			],
+			[
+				"parse",
+				"parseattrs"
+			],
+			[
 				"vali",
 				"validations"
 			],
@@ -14,18 +418,6 @@
 			[
 				"valida",
 				"validators"
-			],
-			[
-				"parse",
-				"parseValidators"
-			],
-			[
-				"attr",
-				"attributes"
-			],
-			[
-				"f",
-				"f\tAnonymous Function"
 			],
 			[
 				"fun",
@@ -80,16 +472,8 @@
 				"parseattr"
 			],
 			[
-				"se",
-				"setattrs"
-			],
-			[
 				"cons",
 				"constructor"
-			],
-			[
-				"ne",
-				"neventstack"
 			],
 			[
 				"ev",
@@ -104,24 +488,12 @@
 				"link\tTag"
 			],
 			[
-				"get",
-				"get_ua"
-			],
-			[
-				"i",
-				"italic\tfont-style"
-			],
-			[
 				"prevLine",
 				"prevLineIsHr\tlocal var"
 			],
 			[
 				"atte",
 				"attendance"
-			],
-			[
-				"loc",
-				"loc_updated_at"
 			],
 			[
 				"upda",
@@ -142,433 +514,96 @@
 			[
 				"lat",
 				"latitude"
-			],
-			[
-				"im",
-				"important"
-			],
-			[
-				"back",
-				"background-color\tproperty"
-			],
-			[
-				"fl",
-				"flex"
-			],
-			[
-				"if",
-				"if\tif … end"
-			],
-			[
-				"paddi",
-				"padding\tproperty"
-			],
-			[
-				"add",
-				"addEventListener\tmethod"
-			],
-			[
-				"con",
-				"controller_name"
-			],
-			[
-				"emplo",
-				"employees"
-			],
-			[
-				"em",
-				"employees"
-			],
-			[
-				"pa",
-				"params"
-			],
-			[
-				"all",
-				"allattendances"
-			],
-			[
-				"be",
-				"beginning_of_week"
-			],
-			[
-				"Date",
-				"DateTime"
-			],
-			[
-				"beg",
-				"beginning_of_day"
-			],
-			[
-				"la",
-				"layouts"
-			],
-			[
-				"dow",
-				"downcase"
-			],
-			[
-				"app",
-				"approved"
-			],
-			[
-				"nam",
-				"names"
-			],
-			[
-				"doc",
-				"document"
-			],
-			[
-				"en",
-				"encrypted"
-			],
-			[
-				"coo",
-				"cookies"
-			],
-			[
-				"cur",
-				"current_session"
-			],
-			[
-				"empl",
-				"employee"
-			],
-			[
-				"ver",
-				"verbose_logged_in"
-			],
-			[
-				"paddin",
-				"padding-right\tproperty"
-			],
-			[
-				"fin",
-				"find"
-			],
-			[
-				"week",
-				"week_time"
-			],
-			[
-				"rec",
-				"recommended"
-			],
-			[
-				"re",
-				"recommended"
-			],
-			[
-				"recomm",
-				"recommended"
-			],
-			[
-				"Id",
-				"IdcardValidator"
-			],
-			[
-				"pass",
-				"password_params"
-			],
-			[
-				"p",
-				"password"
-			],
-			[
-				"new",
-				"new_day"
-			],
-			[
-				"fil",
-				"filter_params"
-			],
-			[
-				"u",
-				"ul\tTagx"
-			],
-			[
-				"l",
-				"li\tMy html plugins"
-			],
-			[
-				"fla",
-				"flash\tflash[…]"
-			],
-			[
-				"emi",
-				"email"
-			],
-			[
-				"class",
-				"class_name"
-			],
-			[
-				"styl",
-				"stylesheet"
-			],
-			[
-				"ge",
-				"getElementById"
-			],
-			[
-				"m",
-				"multiple\tAttr"
-			],
-			[
-				"fo",
-				"form\tTag"
-			],
-			[
-				"padd",
-				"padding-bottom"
-			],
-			[
-				"we",
-				"week-options"
-			],
-			[
-				"op",
-				"option\tTag"
-			],
-			[
-				"th",
-				"th\tTag"
-			],
-			[
-				"menu",
-				"menu-tog"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"di",
-				"div\tTag"
-			],
-			[
-				"sw",
-				"switchtype"
-			],
-			[
-				"sc",
-				"scoreholder\tparameter"
-			],
-			[
-				"sco",
-				"scoreholder\twarning"
-			],
-			[
-				"loca",
-				"location\tproperty"
-			],
-			[
-				"scr",
-				"scripts\twarning"
-			],
-			[
-				"push",
-				"pushState\tmethod"
-			],
-			[
-				"innerHT",
-				"innerHTML\twarning"
-			],
-			[
-				"local",
-				"localStorage\twarning"
-			],
-			[
-				"set",
-				"setItem\twarning"
-			],
-			[
-				"fet",
-				"fetchEvent\twarning"
-			],
-			[
-				"docu",
-				"documentElement\tproperty"
-			],
-			[
-				"remove",
-				"removeAttribute\twarning"
-			],
-			[
-				"loa",
-				"loads\twarning"
-			],
-			[
-				"quey",
-				"querySelectorAll\twarning"
-			],
-			[
-				"hint",
-				"hint_loan\twarning"
-			],
-			[
-				"que",
-				"querySelector\tmethod"
-			],
-			[
-				"init",
-				"initHandles\twarning"
-			],
-			[
-				"calc",
-				"calcscore\twarning"
-			],
-			[
-				"clac",
-				"calcscore\twarning"
-			],
-			[
-				"focus",
-				"focusnext\twarning"
-			],
-			[
-				"foc",
-				"focusnext\twarning"
-			],
-			[
-				"co",
-				"code\tTag"
-			],
-			[
-				"sp",
-				"special"
-			],
-			[
-				"le",
-				"length\twarning"
-			],
-			[
-				"ty",
-				"typeof\tkeyword"
-			],
-			[
-				"cu",
-				"current_id\twarning"
-			],
-			[
-				"ch",
-				"children\twarning"
-			],
-			[
-				"qu",
-				"querySelector\tmethod"
-			],
-			[
-				"regi",
-				"registerAll\twarning"
-			],
-			[
-				"for",
-				"for\tfor (…) {…}"
-			],
-			[
-				"word",
-				"word_hints\twarning"
-			],
-			[
-				"t",
-				"target\twarning"
-			],
-			[
-				"XML",
-				"XMLHttpRequest\tvar"
-			],
-			[
-				"margi",
-				"margin-top"
-			],
-			[
-				"off",
-				"offsetWidth\twarning"
-			],
-			[
-				"ss",
-				"ssid_params"
-			],
-			[
-				"g",
-				"generateuniquesecure"
-			],
-			[
-				"apr",
-				"approved_by"
-			],
-			[
-				"delete_",
-				"delete_prefixed"
-			],
-			[
-				"uplo",
-				"upload_params"
-			],
-			[
-				"no",
-				"noscript\tTag"
-			],
-			[
-				"inp",
-				"input-group"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"contents": "class Model {\n  constructor(attrs) {\n    // The initial state of the model, an array of objects, prepopulated with no data\n    this.objects = [\n    ];\n    this.attrs = attrs;\n  }\n\n  new(object) {\n  \tobject.id = this.objects.length > 0 ? this.objects[this.objects.length - 1].id + 1 : 1;\n  \tthis.objects.push(object);\n  }\n  \n  where(attribute, value, limit = Infinity) {\n  \tfound = []\n    for (var i = 0; i < this.objects.length; i++) {\n    \tif (this.objects[i][attribute] == value) {\n    \t\tfound += this.objects[i];\n    \t}\n    \tif (i == limit) {\n    \t\tbreak;\n    \t}\n    }\n    return found;\n  }\n\n  exist()\n\n  // Map through all todos, and replace the text of the todo with the specified id\n  editTodo(id, updatedText) {\n    this.todos = this.todos.map(todo =>\n      todo.id === id ? { id: todo.id, text: updatedText, complete: todo.complete } : todo\n    )\n  }\n\n  // Filter a todo out of the array by id\n  deleteTodo(id) {\n    this.todos = this.todos.filter(todo => todo.id !== id)\n  }\n\n  // Flip the complete boolean on the specified todo\n  toggleTodo(id) {\n    this.todos = this.todos.map(todo =>\n      todo.id === id ? { id: todo.id, text: todo.text, complete: !todo.complete } : todo\n    )\n  }\n}",
+			"contents": "PLAYLIST\n_______________________________________________\nDO THIS FIRST: Visit the good ol muzmo.ru\n_______________________________________________\nDO THIS FIRST: Update Windows to use MUSIC App\n_______________________________________________\nDO THIS LATER: Do the Instagram stuff, \n\t\t\t\t\t\t\t ask @kemimi03 for the stuff\n_______________________________________________\nDO THIS LATER: Ask your friends how they be\n_______________________________________________\n**Future X Drake - Life Is Good**\n**Le francais la, w'amenyo**\n**Pop Smoke**\n**Dat Nigga = Lil Tecca**\n**Les Enfoires**\n**MAES**\n**Lil Pump** everybody wanna be like me\n\nGIMS\n\nTrapi - Badaboo\nHighest in the Room\nHighest in the Room end titles\nSlum Drip\nYannick (via Audiomack)\nB-Threy\nJabbowockees\nMore Rap Songs\nBadaboo\nHeuss l'Enfoire\nHot Girl Bumper - Blackbear\nNF\nRoxanne - Arizona Zervas\njoe dwet file - a deux",
 			"settings":
 			{
-				"buffer_size": 1197,
-				"line_ending": "Windows"
+				"buffer_size": 873,
+				"line_ending": "Windows",
+				"name": "PLAYLIST"
 			}
 		},
 		{
-			"contents": "class nrecord {\n\tvalidators(validators) {\n\t\tthis.validators = parsevalidator(validators);\n\t}\n\n\tvalidate(newval, state) {\n\t\t/* Loop all our validators to see which validate this */\n\t\tfor (var i = 0; i < this.validators.length; i++) {\n\t\t\tif (this.validators[i][0] == oldstate.key) {\n\t\t\t\tif (this.validators[i][1] != 0) {\n\t\t\t\t\t/* Error: let's abort */\n\t\t\t\t\tbreak;\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\n\tchangeAttr(key, val, old, attrib) {\n\t\tchangestack.push({ attributes: this.attributes, at: Date.now })\n\t}\n\t\n\tconstructor(attributes, model, options) {\n\t\tif (model.name != \"nmodel\") {\n\t\t\treturn \"You passed a bad model\";\n\t\t} else {\n\t\t\tthis.changestack = [];\n\t\t\tthis.attributes = parseattrs(attributes, model.valida, {\n\t\t\t\tmodel: this,\n\t\t\t\tvalidator: this.validate(newval, oldstate),\n\t\t\t\tcallback: this.changeAttr(key, val, old, attrib),\n\t\t\t});\n\t\t}\n\t}\n}\n\nclass nmodel {\n\tconstructor(attributes, model, options = {}) {\n\t\tthis.attributes = parseattrs(attributes, null, {\n\t\t\tmodel: this,\n\t\t\tvalidator: this.validate(),\n\t\t\tcallback: this.changeAttr(),\n\t\t});\n\t}\n\n\tnew(attributes, options) {\n\t\treturn new nrecord(attributes, this, options);\n\t}\n}\n\nfunction newattr(key,value,type) {\n\tlet attr = {\n\t\tchanged: false,\n\t\tchangestack: [],\n\t\t_key: key,\n\t\tget key() {\n\t\t\treturn this._key;\n\t\t},\n\t\tset key(newval) {\n\t\t\tconsole.error(new Error(\"The key can't change\"));\n\t\t},\n\t\ttype: type,\n\t\t_value: value,\n\t\terrortext: `${key} not changed because an error occured`,\n\t\tvalidator: function(newval, oldstate) {},\n\t\tcallback: function(key,) {},\n\t\trecord: {},\n\t\tmodel: {},\n\t\tget value() {\n\t\t\treturn this._value;\n\t\t},\n\n\t\tset value(text) {\n\t\t\tthis.changed = true;\n\t\t\tthis.changestack.push(this._text);\n\t\t\told = this.value;\n\t\t\tret = this.validator(text, this);\n\t\t\tconsole.log(\"Returned\", ret);\n\t\t\tif (ret == 0) { \n\t\t\t\tthis._value = text;\n\t\t\t\tthis.callback(this.key, this.value, old, this);\n\t\t\t} else {\n\t\t\t\tconsole.error(this.errortext);\n\t\t\t}\n\t\t}\n\t};\n\treturn attr;\n}\n\n\n\nfunction parseattrs(attrs, base = [], superposes) {\n\tif (!base) {\n\t\tbase = [];\n\t}\n\tparsed = base;\n\tfor (attr in attrs) {\n\t\tval = attrs[attr];\n\t\tvar obj;\n\t\tif (typeof val == \"object\") {\n\t\t\tobj = new newattr(attr || val.key || val.name || val.attr || val.attribute, val.val || val.value || val.default, val.type || typeof key);\n\t\t} else {\n\t\t\tobj = new newattr(attr, val, undefined);\n\t\t}\n\t\tfor (pose in superposes) {\n\t\t\tobj[pose] = superposes[pose];\n\t\t};\n\t\tparsed.push(obj);\n\t}\n\treturn parsed;\n}\n\nfunction parsevalidator(validators) {\n\tparsed = [];\n\tfor (valid in validators) {\n\t\tif ((typeof validators[valid] == \"object\") && typeof (validators[valid].splite != \"undefined\")) { \n\t\t\tfor (var i = 0; i < validators[valid].length; i++) {\n\t\t\t\tparsed.push({ attr: valid, fn: validators[valid][i] });\n\t\t\t}\n\t\t} else {\n\t\t\tparsed.push({ attr: valid, fn: validators[valid] });\n\t\t}\n\t}\n\treturn parsed;\n}",
-			"file": "n.js",
-			"file_size": 2031,
-			"file_write_time": 132275220048879518,
+			"file": "docs/views/split.html",
 			"settings":
 			{
-				"buffer_size": 2809,
+				"buffer_size": 2160,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "<div class=\"view lead\">"
+			}
+		},
+		{
+			"file": "docs/index.html",
+			"settings":
+			{
+				"buffer_size": 2057,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "class nrecord {\n\tconstructor(attributes, validators) {\n\t\tattributes = parseattrs(attributes, ) || {};\n\t\tthis.attributes = attributes;\n\t\tfor (var i = 0; i < attributes.length; i++) {\n\t\t\tthis[attributes[i].key] = attributes[i];\n\t\t}\n\t\tthis.validations = parseValidators(validators);\n\t}\n\n\tget errors() {\n\t\tvar errlist = [];\n\t\tvar attrs = this.attributes;\n\t\tfor (var i = 0; i < attrs.length; i++) {\n\t\t\tvar rules = this.validations[attrs[i].key];\n\t\t\tif (rules) {\n\t\t\t\tfor (var j = 0; j < rules.length; j++) {\n\t\t\t\t\tvar ret = rules[j](this[attrs[i].key].value);\n\t\t\t\t\tif (ret!=0) {\n\t\t\t\t\t\tvar record = this;\n\t\t\t\t\t\terrlist.push({attrib: attrs[i].key,error: ret});\n\t\t\t\t\t}\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t\treturn errlist;\n\t}\n\n\tget isValid() {\n\t\tif (this.errors.length == 0) {\n\t\t\treturn true;\n\t\t} else {\n\t\t\treturn false;\n\t\t}\n\t}\n}\n\nfunction parseValidators(validators) {\n\tvar parsed = {};\n\tfor(var valid in validators) {\n\t\tvar val = validators[valid];\n\t\tparsed[valid] = [val].flat();\n\t}\n\treturn parsed;\n}\n\nfunction newattr(key,value,type) {\n\tlet attr = {\n\t\tchanged: false,\n\t\tchangestack: [],\n\t\t_key: key,\n\t\tget key() {\n\t\t\treturn this._key;\n\t\t},\n\t\tset key(newval) {\n\t\t\tconsole.error(new Error(\"The key can't change\"));\n\t\t},\n\t\ttype: type,\n\t\t_value: value,\n\t\terrortext: `${key} not changed because an error occured`,\n\t\tcallback: function(key,) {},\n\t\trecord: {},\n\t\tmodel: {},\n\t\tget value() {\n\t\t\treturn this._value;\n\t\t},\n\n\t\tset value(text) {\n\t\t\tthis.changed = true;\n\t\t\tthis.changestack.push(this._text);\n\t\t\told = this.value;\n\t\t\tret = this.validator(text, this);\n\t\t\tconsole.log(\"Returned\", ret);\n\t\t\tif (ret == 0) { \n\t\t\t\tthis._value = text;\n\t\t\t\tthis.callback(this.key, this.value, old, this);\n\t\t\t} else {\n\t\t\t\tconsole.error(this.errortext);\n\t\t\t}\n\t\t}\n\t};\n\treturn attr;\n}\n\nfunction parseattrs(attrs, base = [], superposes, methods) {\n\tif (!base) {\n\t\tbase = [];\n\t}\n\tfor (method in methods) {\n\t\tparsed[method] = methods[method];\n\t}\n\tparsed = base;\n\tfor (attr in attrs) {\n\t\tval = attrs[attr];\n\t\tvar obj;\n\t\tif (typeof val == \"object\") {\n\t\t\tobj = new newattr(attr || val.key || val.name || val.attr || val.attribute, val.val || val.value || val.default, val.type || typeof key);\n\t\t} else {\n\t\t\tobj = new newattr(attr, val, undefined);\n\t\t}\n\t\tfor (pose in superposes) {\n\t\t\tobj[pose] = superposes[pose];\n\t\t};\n\t\tparsed.push(obj);\n\t}\n\treturn parsed;\n}",
+			"file": "docs/main.html",
 			"settings":
 			{
-				"buffer_size": 2298,
+				"buffer_size": 624,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
+			"file": "stylus/bars/nav.styl",
 			"settings":
 			{
-				"buffer_size": 16077,
+				"buffer_size": 1375,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/app.css",
+			"settings":
+			{
+				"buffer_size": 911125,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "/* An attributes parse */\nfunction parseattrs(attr) {\n\tfunction totalFlat(toflat) {\n\t\tvar flattened = toflat;\n\t\tvar containarr = true;\n\t\twhile (containarr == true) {\n\t\t\tcontainarr = false;\n\t\t\tfor (var i = 0; i < flattened.length; i++) {\n\t\t\t\tif ((typeof flattened[i].push != \"undefined\")&&(typeof flattened[i].splice != \"undefined\")) {\n\t\t\t\t\tcontainarr = true;\n\t\t\t\t}\n\t\t\t}\n\t\t\tflattened = flattened.flat();\n\t\t}\n\t\treturn flattened;\n\t}\n\tfunction str(text) {\n\t\t/* Check If It's not godamn JSON */\n\t\ttry {\n\t\t\t/* It is JSON */\n\t\t\tvar parse = JSON.parse(text);\n\t\t\treturn obj(parse);\n\t\t} catch {\n\t\t\t/* It is definitely a string */\n\t\t\treturn {key: text}\n\t\t}\n\t}\n\tfunction arr(list) {\n\t\ttotalFlat(list);\n\t\tvar results = [];\n\t\tfor (var i = 0; i < list.length; i++) {\n\t\t\ta = loop(list[i]);\n\t\t\tconsole.log(\"Current list item\",list[i]);\n\t\t\tconsole.log(\"Result of looping\",a);\n\t\t\tresults = results.concat(a);\n\t\t\tconsole.log(\"Updated results\",results);\n\t\t}\n\t\tconsole.log(\"The list\",list,\"The results\",results);\n\t\treturn results;\n\t}\n\tfunction obj(elem) {\n\t\t// This is just an object, parse it\n\t\tvar result = {};\n\t\tresult.key = elem.key;\n\t\tresult.default = elem.default;\n\t\tresult.type = elem.type;\n\t\treturn result;\n\t}\n\tfunction num(int) {\n\t\treturn {key: int.toString()}\n\t}\n\tfunction loop(attr) {\n\t\tvar results = [];\n\t\tif (typeof attr == \"string\") {\n\t\t\t/* First case: is a string */\n\t\t\tresults.push(str(attr));\n\t\t} else if ((typeof attr == \"object\")&&(typeof attr.push != \"undefined\")&&(typeof attr.splice != \"undefined\")) {\n\t\t\t/* Second Case: is an array */\n\t\t\tresults = arr(attr);\n\t\t} else\n\t\tif ((typeof attr == \"object\")) {\n\t\t\t/* Third Case: is an object */\n\t\t\tresults.push(obj(attr));\n\t\t} else\n\t\tif (typeof attr == \"number\") {\n\t\t\t/* Fourth Case: is a number */\n\t\t\tresults.push(num(attr));\n\t\t} else {\n\t\t\t/* FLast Case: invalid type */\n\t\t\tnew Error(\"ParseError: Don't know how to parse attribute with type\"+ typeof attr);\n\t\t\treturn 1;\n\t\t}\n\t\treturn results\n\t}\n\treturn loop(attr);\n}",
+			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/relativeToBaseDir.js",
 			"settings":
 			{
-				"buffer_size": 1959,
-				"line_ending": "Windows"
+				"buffer_size": 357,
+				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "function obj(elem) {\n\t// This is just an object, parse it\n\tvar result = {};\n\tresult.key = elem.key;\n\tresult.default = elem.default;\n\tresult.type = elem.type;\n\treturn result;\n}\n\nfunction arr(list) {\n\ttotalFlat(list);\n\tvar results = []\n\tfor (var i = 0; i < list.length; i++) {\n\t\tresults.push(obj(list[i]))\n\t}\n\treturn results;\n}\n\nfunction totalFlat(toflat) {\n\tvar flattened = toflat;\n\tvar containarr = true;\n\twhile (containarr == true) {\n\t\tcontainarr = false;\n\t\tfor (var i = 0; i < flattened.length; i++) {\n\t\t\tif ((typeof flattened[i].push != \"undefined\")&&(typeof flattened[i].splice != \"undefined\")) {\n\t\t\t\tcontainarr = true;\n\t\t\t}\n\t\t}\n\t\tflattened = flattened.flat();\n\t}\n\treturn flattened;\n}",
+			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/isPathAbsolute.js",
 			"settings":
 			{
-				"buffer_size": 688,
-				"line_ending": "Windows"
+				"buffer_size": 111,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/Readme.md",
+			"settings":
+			{
+				"buffer_size": 5991,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/url.js",
+			"settings":
+			{
+				"buffer_size": 4197,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -672,6 +707,10 @@
 		"selected_items":
 		[
 			[
+				"set synt js",
+				"Set Syntax: JavaScript"
+			],
+			[
 				"type",
 				"TypeScript: Paste And Format"
 			],
@@ -765,23 +804,134 @@
 	"expanded_folders":
 	[
 		"/C/Sites/muzui",
-		"/C/Sites/muzui/js"
+		"/C/Sites/muzui/css",
+		"/C/Sites/muzui/docs",
+		"/C/Sites/muzui/docs/bars",
+		"/C/Sites/muzui/js",
+		"/C/Sites/muzui/stylus",
+		"/C/Sites/muzui/stylus/bars",
+		"/C/Sites/muzui/stylus/controls",
+		"/C/Sites/muzui/stylus/views"
 	],
 	"file_history":
 	[
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/index.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/cache/index.js",
+		"/C/Sites/muzui/stylus/font-load.styl",
+		"/C/Sites/muzui/docs/bars/nav.html",
+		"/C/Sites/muzui/docs/bars/search.html",
+		"/C/Sites/muzui/docs/bars/tab.html",
+		"/C/Sites/muzui/docs/bars/tool.html",
+		"/C/Sites/muzui/js/navigator.js",
+		"/C/Sites/muzui/js/view.js",
+		"/C/Sites/muzui/stylus/typo.styl",
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/README.md",
+		"/C/Sites/muzui/docs/views/alerts.html",
+		"/C/Sites/muzui/stylus/controls/text-fields.styl",
+		"/C/Sites/muzui/stylus/views/tables.styl",
+		"/C/Sites/muzui/js/app.js",
+		"/C/Sites/muzui/stylus/views/alerts.styl",
+		"/C/Users/Alien/AppData/Local/Silverlake Software LLC/Velocity/Docsets/Dash/TypeScript.docset/Contents/Resources/LICENSE",
+		"/C/Users/Alien/Downloads/Compressed/KidkArolis-location-bar-v3.0.1-0-g38a1ae9.tar/KidkArolis-location-bar-v3.0.1-0-g38a1ae9/KidkArolis-location-bar-38a1ae9/README.md",
+		"/C/Users/Alien/Downloads/Compressed/KidkArolis-location-bar-v3.0.1-0-g38a1ae9.tar/KidkArolis-location-bar-v3.0.1-0-g38a1ae9/KidkArolis-location-bar-38a1ae9/location-bar.js",
+		"/C/Ruby26/share/doc/ruby/html/js/navigation.js",
+		"/C/Sites/stencil/aliens/node_modules/@stencil/router/dist/collection/components/router/router.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/cordova/node_modules/color-convert/route.js",
+		"/C/Windows/SystemApps/Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy/js/navigator.js",
+		"/C/Program Files/Adobe/Adobe Creative Cloud/BehancePanel/resource/ui/resources/js/controller/router.js",
+		"/C/Program Files/B2G/b2g-desktop-profile-master/webapps/calendar.gaiamobile.org/application/js/router.js",
+		"/C/Sites/muzui/js/router.js",
+		"/C/Users/Alien/Downloads/Compressed/tildeio-router.js-v6.2.5-6-g5adbc7f.tar/tildeio-router.js-v6.2.5-6-g5adbc7f/tildeio-router.js-5adbc7f/README.md",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/README.md",
+		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/README.md",
+		"/C/Sites/muzui/js/ghost.js",
+		"/C/Sites/muzui/stylus/bars/nav.styl",
+		"/C/Sites/muzui/stylus/page.styl",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/es6-promise/dist/es6-promise.js",
+		"/C/Program Files/heroku cli/client/node_modules/bluebird/js/release/promise.js",
+		"/C/Sites/rms/brick-select/bower_components/brick/dist/es6-promise/promise.js",
+		"/C/Sites/muzui/docs/views/table.html",
+		"/C/Sites/muzui/stylus/controls/switches.styl",
+		"/C/Sites/muzui/docs/views/grouped.html",
+		"/C/Sites/muzui/stylus/vars.styl",
+		"/C/Sites/muzui/stylus/controls/buttons.styl",
+		"/C/Sites/muzui/docs/views/typa.html",
+		"/C/Sites/muzui/docs/edit/js/editor.js",
+		"/C/Sites/node_modules/caniuse-lite/data/features/document-execcommand.js",
+		"/C/Sites/muzui/docs/controls/buttons.html",
+		"/C/Sites/muzui/docs/views/tables.html",
+		"/C/Sites/muzui/docs/controls/text-fields.html",
+		"/C/Sites/muzui/img/demo/right.svg",
+		"/C/Sites/muzui/docs/view.html",
+		"/C/Sites/muzui/stylus/views.styl",
+		"/C/Sites/muzui/stylus/app.styl",
+		"/C/Sites/muzui/stylus/controls.styl",
+		"/C/Sites/muzui/docs/controls/switches.html",
+		"/C/Sites/muzui/docs/controls/steppers.html",
+		"/C/Sites/muzui/stylus/controls/steppers.styl",
+		"/C/Sites/muzui/stylus/controls/slider.styl",
+		"/C/Sites/muzui/docs/controls/segmentedcontrols.html",
+		"/C/Sites/muzui/stylus/controls/segmentedcontrols.styl",
+		"/C/Sites/muzui/docs/controls/slider.html",
+		"/C/Sites/muzui/docs/controls/contextmenu.html",
+		"/C/Sites/muzui/stylus/controls/contextmenu.styl",
+		"/C/Sites/vix/js/bundle.js",
+		"/C/Sites/muzui/stylus/buttons/buttons.styl",
+		"/C/Sites/muzui/docs/main.html",
+		"/C/Sites/muzui/stylus/bars.styl",
+		"/C/Sites/muzui/stylus/bars/search.styl",
+		"/C/Sites/muzui/stylus/bars/tool.styl",
+		"/C/Sites/muzui/stylus/bars/tab.styl",
+		"/C/Sites/muzui/docs/bars/navbar.html",
+		"/C/Sites/rwarriui/css/raw/normalize/typography.styl",
+		"/C/Sites/rwarriui/css/raw/font-load.styl",
+		"/C/Sites/rwarriui/css/raw/normalize/page.styl",
 		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/app.js",
+		"/C/Sites/muzui/sw.js",
+		"/C/Sites/muzui/view.js",
+		"/C/Sites/muzui/stylus/view.styl",
+		"/C/Sites/muzui/LICENSE",
+		"/C/Sites/muzui/img/chevron_right.svg",
+		"/C/Sites/muzui/navbar.html",
+		"/C/Sites/muzui/navbar - Copy.html",
+		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/lib/written.min.js",
+		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/src/backbone.viewstack.coffee",
+		"/C/Users/Alien/Downloads/guides/guides/source/routing.md",
+		"/C/Program Files/PostgreSQL/10/pgAdmin 4/docs/en_US/html/_static/underscore-1.3.1.js",
+		"/C/Users/Alien/Downloads/guides/guides/source/action_view_overview.md",
+		"/C/Sites/muzui/router.js",
+		"/C/Sites/muzui/model.js",
+		"/C/Sites/rwarrims-beta/app/views/layouts/application.html.erb",
+		"/C/Sites/muzui/js/libs/l10n.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_class_methods.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_errors.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_local_storage.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/null_persistence.js",
+		"/C/Sites/muzika/js/app (2).js",
+		"/C/Sites/muzika/js/app.js",
+		"/C/Sites/muzui/index.html",
+		"/C/Sites/muzui/fonts",
+		"/C/Sites/muzui/types",
+		"/C/Copied/human/ios design/developer.apple.com/design/human-interface-guidelines/ios/overview/themes/index.html",
+		"/C/Copied/human/ios design/developer.apple.com/design/human-interface-guidelines/ios/overview/index.html",
+		"/C/Copied/human/ios design/index.html",
+		"/C/Copied/human/index.html",
+		"/C/Copied/Human Design Interface/design/human-interface-guidelines/ios/index.html",
+		"/C/Sites/site/.git/COMMIT_EDITMSG",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_rest.js",
+		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/collection.js",
+		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/TypeScript/Preferences.sublime-settings",
+		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/C/Program Files/heroku cli/client/node_modules/@heroku-cli/plugin-pg-v5/lib/setter.js",
 		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/no-setter-return.js",
 		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/object-shorthand.js",
 		"/C/Users/Alien/Desktop/legacies/hello/w3shools/js/js_validation.html",
 		"/C/Sites/muzui/n.js",
 		"/C/Sites/muzui/manifest.json",
-		"/C/Sites/muzui/index.html",
 		"/C/Sites/muzui/features.json",
 		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/index.html",
-		"/C/Sites/muzui/js/app.js",
-		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/README.md",
-		"/C/Sites/muzui/sw.js",
 		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/vendor.js",
 		"/C/Sites/extraterrestal/manifest.json",
 		"/C/Sites/extraterrestal/index.html",
@@ -792,111 +942,7 @@
 		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/rst/rst.js",
 		"/C/Sites/rwarrims-beta/app/controllers/admin/leaves_controller.rb",
 		"/C/Sites/rwarrims-beta/app/controllers/leaves_controller.rb",
-		"/C/Sites/rwarrims-beta/app/views/admin/attendances/_panel.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/leaves/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/leaves/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/index.html.erb",
-		"/C/Sites/rwarrims-beta/Gemfile",
-		"/C/Sites/rwarrims-beta/app/views/attendances/new.html.erb",
-		"/C/Sites/rwarrims-beta/app/helpers/application_helper.rb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_admin_show_leave.html.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/asset_pipeline.md",
-		"/C/Sites/rwarrims-beta/app/views/leaves/index.pdf.erb",
-		"/C/Sites/rwarrims-beta/app/controllers/application_controller.rb",
-		"/C/Sites/rwarrims-beta/app/views/layouts/application.html.erb",
-		"/C/Sites/rwarrims/app/views/attendance/log.html.erb",
-		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/theme/monokai.css",
-		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/yaml/yaml.js",
-		"/C/Users/Alien/Desktop/Markdown/Markdown.sublime-syntax",
-		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/markdown/markdown.js",
-		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/markdown/markdown-later.js",
-		"/C/Users/Alien/Desktop/motes.xml",
-		"/C/Sites/rwarrims-beta/config/initializers/assets.rb",
-		"/C/Sites/rwarrims-beta/app/views/layouts/admin.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/layouts/outside.html.erb",
-		"/C/Users/Alien/Downloads/Compressed/a.sh",
-		"/C/Sites/rwarrims-beta/app/views/index/index.html.erb",
-		"/C/Users/Alien/Downloads/a.sh",
-		"/C/Sites/rwarrims-beta/app/controllers/admin_controller.rb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/application.js.erb",
-		"/C/Sites/rwarrims-beta/app/views/attendances/_show.html.erb",
-		"/C/Sites/rwarrims-beta/config/environments/production.rb",
-		"/C/Sites/rwarrims-beta/app/assets/stylesheets/bundle.css.erb",
-		"/C/Sites/rwarrims-beta/config/environments/development.rb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/index.js",
-		"/C/Sites/rwarrims-beta/app/controllers/attendances_controller.rb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/attendances.js",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/documents.js.erb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/leaves.js.erb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/attendances.js.erb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/employees.js.erb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/sessions.js.erb",
-		"/C/Sites/rwarrims-beta/app/views/application/_error.html.erb",
-		"/C/Sites/rwarrims-beta/app/models/employee.rb",
-		"/C/Sites/rwarrims-beta/app/views/attendances/show.json.jbuilder",
-		"/C/Sites/rwarrims-beta/app/views/attendances/_attendance.json.jbuilder",
-		"/C/Sites/rwarrims-beta/app/controllers/employees_controller.rb",
-		"/C/Users/Alien/$1",
-		"/C/Sites/rwarrims-beta/app/views/admin/attendances/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/approve.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/attendances/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/employees/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/attendances/_panel.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/leaves/_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/_error.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/recommend.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/leaves/_recommend_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/_admin_show_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/index.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/_show_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/admin/documents/_show_form.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/index/admin.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/leaves/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/employees/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/leaves/new.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/new.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/documents/edit.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/employees/show.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/sessions/index.html.erb",
-		"/C/Sites/rwarriui/css/all/v2/high.css",
-		"/C/Users/Alien/Downloads/guides/guides/source/form_helpers.md",
-		"/C/Users/Alien/Downloads/guides/guides/source/action_view_overview.md",
-		"/C/Sites/rwarrims-beta/app/views/leaves/_leave_show.html.erb",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/timescope.js",
-		"/C/Sites/rwarrims-beta/app/views/employees/new.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/employees/login.html.erb",
-		"/C/Sites/rwarrims-beta/app/views/employees/_login_form.html.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/getting_started.md",
-		"/C/Users/Alien/Downloads/guides/guides/source/layouts_and_rendering.md",
-		"/C/Sites/rwarrims-beta/app/assets/javascripts/bundle.js",
-		"/C/Users/Alien/Downloads/guides/guides/source/working_with_javascript_in_rails.md",
-		"/C/Ruby26/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/README.md",
-		"/C/Ruby26/lib/ruby/gems/2.6.0/gems/turbolinks-5.2.0/README.md",
-		"/C/Sites/rwarrims-beta/app/assets/stylesheets/application.css.erb",
-		"/C/Users/Alien/Downloads/guides/guides/source/routing.md",
-		"/C/Sites/rwarriui/css/raw/variables.css",
-		"/C/Sites/rwarrims-beta/app/assets/config/manifest.js",
-		"/C/Sites/rwarrims-beta/app/controllers/documents_controller.rb",
-		"/C/Sites/rwarrims-beta/app/views/index/help.html.erb",
-		"/C/Sites/rwarrims-beta/app/controllers/index_controller.rb",
-		"/C/Sites/rwarrims-beta/app/controllers/admin/attendances_controller.rb",
-		"/C/Users/Alien/Downloads/guides/guides/source/i18n.md",
-		"/C/Sites/rwarrims-beta/app/controllers/admin/documents_controller.rb",
-		"/C/Sites/rwarrims-beta/config/routes.rb",
-		"/C/Sites/rwarrims-beta/app/views/admin/employees/recruit.html.erb"
+		"/C/Sites/rwarrims-beta/app/views/admin/attendances/_panel.html.erb"
 	],
 	"find":
 	{
@@ -914,6 +960,93 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"/data",
+			"dis",
+			"scr",
+			"nothin",
+			".*console.log.*\\n",
+			"push",
+			"this.merge",
+			"Backbone",
+			"(\\w+):( )|();()",
+			"td",
+			"tr",
+			"tbody>",
+			"<tbody",
+			"table>",
+			"<table",
+			"td",
+			"<td",
+			"tr",
+			"<tr",
+			"td",
+			"tr|td",
+			"elem",
+			"this",
+			"find",
+			"hasN",
+			"findNodes",
+			"(\\w+):( )|();()",
+			":|;",
+			"links",
+			"& ",
+			" .",
+			":|;",
+			"margin",
+			"bold",
+			"normal",
+			"(.*) //.*",
+			"margin",
+			" (\\d+)",
+			"mi-Bold",
+			"Regular",
+			"(\\w*)\\s",
+			"([\\w\\-]+)",
+			"(\\w+)",
+			"(\\w*)",
+			"\\w*",
+			":|;",
+			"view-head",
+			"white",
+			"back",
+			"center",
+			"new URL",
+			"fals",
+			"Backbone.ViewStack",
+			"ease",
+			"<script.*>\\n?((.|\\n)*)\\n?<\\/script>",
+			"<script>\\n?((.|\\n)*)\\n?</script>",
+			"<script>((.|\\n)*)</script>",
+			"(.|\\n)*",
+			"(.*)",
+			"(.*)<\\/script>",
+			"/<%([\\s\\S]+?)%>/g",
+			"template",
+			"extend",
+			"recur",
+			"\\beq\\b",
+			"eq",
+			"recursiv",
+			"each",
+			"slice",
+			"each",
+			"_.extend",
+			"MHook",
+			"/?(:\\w*)/?",
+			"/?(:.*)/?",
+			"/?(.*)/?",
+			"element",
+			"data",
+			",\n",
+			"Event",
+			"targed",
+			"new_reco",
+			"obj",
+			"associa",
+			"plural",
+			"valid",
+			"model",
+			"console",
 			"get",
 			"ease",
 			"(\\n|\\t|\\r| ){1,}",
@@ -929,6 +1062,44 @@
 		"regex": true,
 		"replace_history":
 		[
+			"../data",
+			"",
+			"$1$2",
+			"<div class=\"caption\"",
+			".col",
+			".row",
+			"div>",
+			"<div class=\"tbody\"",
+			"div>",
+			"<div class=\"table\"",
+			"div",
+			"<div class=\"col\"",
+			"div",
+			"<div class=\"row\"",
+			"div",
+			"$1$2",
+			"",
+			"700",
+			"600",
+			"$1",
+			"padding",
+			" $1px",
+			"$1px",
+			"bold",
+			"normal",
+			"$1 $2 $3 $4",
+			"",
+			"nav-bar",
+			"$1",
+			"$2",
+			"$0 $1 $2 $3 $4",
+			"NHook",
+			"$0 $1 $2 $3 $4",
+			"this",
+			"this.data",
+			"MEvent",
+			"target",
+			"this.model",
 			"",
 			" ",
 			"",
@@ -944,7 +1115,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 9,
 			"sheets":
 			[
 				{
@@ -952,20 +1123,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1197,
+						"buffer_size": 873,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								603,
-								603
+								734,
+								734
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"auto_name": "PLAYLIST",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
@@ -974,91 +1146,267 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 190.0,
+						"translation.y": 114.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "n.js",
+					"file": "docs/views/split.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2809,
+						"buffer_size": 2160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2413,
-								1921
+								0,
+								2160
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false,
+							"auto_name": "<div class=\"view lead\">",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"typescript_plugin_format_options":
 							{
 								"convertTabsToSpaces": false,
 								"indentSize": 2,
 								"tabSize": 2
-							},
-							"use_tab_stops": false
+							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 1634.0,
+						"translation.y": 988.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "docs/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2298,
+						"buffer_size": 2057,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								449,
+								449
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
+					"file": "docs/main.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 16077,
+						"buffer_size": 624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								765,
-								769
+								144,
+								144
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "stylus/bars/nav.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1375,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								827,
+								827
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 551.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "css/app.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 911125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/relativeToBaseDir.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								79
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/isPathAbsolute.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 111,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								76,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/Readme.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5991,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2885,
+								2885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1824.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/url.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4197,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3099,
+								3099
 							]
 						],
 						"settings":
@@ -1069,71 +1417,10 @@
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1893.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1959,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								1959
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 2,
-								"tabSize": 2
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 688,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								511,
-								597
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -1141,7 +1428,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 29.0
+		"height": 28.0
 	},
 	"input":
 	{
@@ -1232,7 +1519,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 297.0,
+	"side_bar_width": 228.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

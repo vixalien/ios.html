@@ -166,6 +166,3 @@ function execScripts(base = document) {
 		console.log(i,"Evaled this", src[i]);
 	}
 }
-for (var i = 0; i < Things.length; i++) {
-	Things[i]
-}

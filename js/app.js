@@ -104,7 +104,7 @@ class alert {
 		for (var i = 0; i < this.element.querySelectorAll(".links > *").length; i++) {
 			this.element.querySelectorAll(".links > *")[i].addEventListener("click", function(e) {
 				e.preventDefault();
-				setTimeout(function() {e.path.find(e => e.classList.contains("alert")).view.close()}, 300);
+				setTimeout(function() {e.path.find(e => e.classList.contains("alert")).view.close()}, 50);
 			})
 		}
 		var shadow = document.createElement("div");
