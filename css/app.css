@@ -1,209 +1,13 @@
 
-/* line 297 : C:\Sites\muzui\stylus\app.styl */
+/* line 14 : C:\Sites\muzui\stylus\app.styl */
 
 /* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
 
 /* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 45 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\vars.styl */
 
-/* line 28 : C:\Sites\muzui\stylus\vars.styl */
-
-/* line 1 : C:\Sites\muzui\stylus\animations.styl */
-
-/* line 23 : C:\Sites\muzui\stylus\animations.styl */
-.in-left {
-  position: relative;
-  animation: to-left 0.3s ease-out;
-}
-
-/* line 26 : C:\Sites\muzui\stylus\animations.styl */
-.out-left {
-  position: relative;
-  animation: from-left 0.3s ease-out;
-}
-
-/* line 1 : C:\Sites\muzui\stylus\animations.styl */
-@-moz-keyframes to-left {
-
-/* line 2 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 0;
-    left: 100%;
-  }
-
-/* line 7 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-/* line 1 : C:\Sites\muzui\stylus\animations.styl */
-@-webkit-keyframes to-left {
-
-/* line 2 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 0;
-    left: 100%;
-  }
-
-/* line 7 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-/* line 1 : C:\Sites\muzui\stylus\animations.styl */
-@-o-keyframes to-left {
-
-/* line 2 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 0;
-    left: 100%;
-  }
-
-/* line 7 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-/* line 1 : C:\Sites\muzui\stylus\animations.styl */
-@keyframes to-left {
-
-/* line 2 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 0;
-    left: 100%;
-  }
-
-/* line 7 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 1;
-    left: 0;
-  }
-}
-
-/* line 12 : C:\Sites\muzui\stylus\animations.styl */
-@-moz-keyframes from-left {
-
-/* line 13 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 1;
-    left: 100%;
-  }
-
-/* line 18 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 0;
-    left: 0;
-  }
-}
-
-/* line 12 : C:\Sites\muzui\stylus\animations.styl */
-@-webkit-keyframes from-left {
-
-/* line 13 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 1;
-    left: 100%;
-  }
-
-/* line 18 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 0;
-    left: 0;
-  }
-}
-
-/* line 12 : C:\Sites\muzui\stylus\animations.styl */
-@-o-keyframes from-left {
-
-/* line 13 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 1;
-    left: 100%;
-  }
-
-/* line 18 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 0;
-    left: 0;
-  }
-}
-
-/* line 12 : C:\Sites\muzui\stylus\animations.styl */
-@keyframes from-left {
-
-/* line 13 : C:\Sites\muzui\stylus\animations.styl */
-  from {
-    opacity: 1;
-    left: 100%;
-  }
-
-/* line 18 : C:\Sites\muzui\stylus\animations.styl */
-  to {
-    opacity: 0;
-    left: 0;
-  }
-}
-
-/* line 553 : C:\Sites\muzui\stylus\animations.styl */
+/* line 45 : C:\Sites\muzui\stylus\vars.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\font-load.styl */
 @font-face {
@@ -760,7 +564,7 @@
   font-weight: 100;
 }
 
-/* line 87 : C:\Sites\muzui\stylus\font-load.styl */
+/* line 553 : C:\Sites\muzui\stylus\font-load.styl */
 
 /* line 553 : C:\Sites\muzui\stylus\typo.styl */
 
@@ -868,9 +672,9 @@ hr {
   margin-bottom: 0;
 }
 
-/* line 42 : C:\Sites\muzui\stylus\typo.styl */
+/* line 87 : C:\Sites\muzui\stylus\typo.styl */
 
-/* line 18 : C:\Sites\muzui\stylus\page.styl */
+/* line 87 : C:\Sites\muzui\stylus\page.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\page.styl */
 body {
@@ -958,13 +762,13 @@ body .view {
   background-color: #d1d1d1;
 }
 
-/* line 8 : C:\Sites\muzui\stylus\page.styl */
+/* line 42 : C:\Sites\muzui\stylus\page.styl */
 
-/* line 42 : C:\Sites\muzui\stylus\bars.styl */
+/* line 8 : C:\Sites\muzui\stylus\bars.styl */
 
-/* line 75 : C:\Sites\muzui\stylus\bars.styl */
+/* line 8 : C:\Sites\muzui\stylus\bars.styl */
 
-/* line 42 : C:\Sites\muzui\stylus\bars\nav.styl */
+/* line 75 : C:\Sites\muzui\stylus\bars\nav.styl */
 
 /* line 45 : C:\Sites\muzui\stylus\bars\nav.styl */
 
@@ -1093,7 +897,7 @@ h6.center {
   transition: 0.3s;
 }
 
-/* line 10 : C:\Sites\muzui\stylus\vars.styl */
+/* line 75 : C:\Sites\muzui\stylus\vars.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\bars\search.styl */
 
@@ -1113,7 +917,7 @@ h6.center {
   font-size: 0.9em;
 }
 
-/* line 25 : C:\Sites\muzui\stylus\bars\search.styl */
+/* line 10 : C:\Sites\muzui\stylus\bars\search.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\bars\tab.styl */
 
@@ -1157,7 +961,7 @@ h6.center {
   position: initial;
 }
 
-/* line 28 : C:\Sites\muzui\stylus\bars\tab.styl */
+/* line 25 : C:\Sites\muzui\stylus\bars\tab.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\bars\tool.styl */
 
@@ -1204,11 +1008,11 @@ h6.center {
   position: auto;
 }
 
-/* line 12 : C:\Sites\muzui\stylus\bars\tool.styl */
+/* line 28 : C:\Sites\muzui\stylus\bars\tool.styl */
 
-/* line 42 : C:\Sites\muzui\stylus\controls.styl */
+/* line 12 : C:\Sites\muzui\stylus\controls.styl */
 
-/* line 29 : C:\Sites\muzui\stylus\controls.styl */
+/* line 12 : C:\Sites\muzui\stylus\controls.styl */
 
 /* line 12 : C:\Sites\muzui\stylus\controls\buttons.styl */
 
@@ -1268,7 +1072,7 @@ a {
   cursor: pointer;
 }
 
-/* line 104 : C:\Sites\muzui\stylus\controls\buttons.styl */
+/* line 29 : C:\Sites\muzui\stylus\controls\buttons.styl */
 
 /* line 29 : C:\Sites\muzui\stylus\controls\slider.styl */
 
@@ -1395,7 +1199,7 @@ input[type=range]::-ms-thumb {
   box-shadow: 0 0 0 10px rgba(38,166,154,0.26);
 }
 
-/* line 23 : C:\Sites\muzui\stylus\controls\slider.styl */
+/* line 104 : C:\Sites\muzui\stylus\controls\slider.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\controls\segmentedcontrols.styl */
 
@@ -1431,7 +1235,7 @@ input[type=range]::-ms-thumb {
   box-shadow: 0px 1px 2px #c7c7cc;
 }
 
-/* line 13 : C:\Sites\muzui\stylus\controls\segmentedcontrols.styl */
+/* line 23 : C:\Sites\muzui\stylus\controls\segmentedcontrols.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\controls\steppers.styl */
 
@@ -1471,7 +1275,7 @@ input[type=range]::-ms-thumb {
   background-color: #1c87ff;
 }
 
-/* line 28 : C:\Sites\muzui\stylus\controls\steppers.styl */
+/* line 13 : C:\Sites\muzui\stylus\controls\steppers.styl */
 
 /* line 13 : C:\Sites\muzui\stylus\controls\switches.styl */
 
@@ -1519,7 +1323,7 @@ input[type="checkbox"]:checked::before {
   transform: translateX(12px);
 }
 
-/* line 23 : C:\Sites\muzui\stylus\controls\switches.styl */
+/* line 28 : C:\Sites\muzui\stylus\controls\switches.styl */
 
 /* line 28 : C:\Sites\muzui\stylus\controls\text-fields.styl */
 
@@ -1552,11 +1356,11 @@ input[type="text"].icon {
   background-repeat: no-repeat;
 }
 
-/* line 4 : C:\Sites\muzui\stylus\controls\text-fields.styl */
+/* line 23 : C:\Sites\muzui\stylus\controls\text-fields.styl */
 
-/* line 42 : C:\Sites\muzui\stylus\views.styl */
+/* line 4 : C:\Sites\muzui\stylus\views.styl */
 
-/* line 92 : C:\Sites\muzui\stylus\views.styl */
+/* line 4 : C:\Sites\muzui\stylus\views.styl */
 
 /* line 1 : C:\Sites\muzui\stylus\views\alerts.styl */
 
@@ -1714,9 +1518,9 @@ body {
   background-color: #c7c7cc;
 }
 
-/* line 73 : C:\Sites\muzui\stylus\views\alerts.styl */
+/* line 92 : C:\Sites\muzui\stylus\views\alerts.styl */
 
-/* line 42 : C:\Sites\muzui\stylus\views\tables.styl */
+/* line 73 : C:\Sites\muzui\stylus\views\tables.styl */
 
 /* line 45 : C:\Sites\muzui\stylus\views\tables.styl */
 
