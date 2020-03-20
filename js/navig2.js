@@ -1,10 +1,14 @@
 class nrouter {
 	defaults = {
-		root: location.href,
-		baseClass: "html",
-		viewClass: "body",
-		pushState: true,
-		hash: false,
+		viewPath: "views/",
+		headClass: ".view-head",
+		bodyClass: ".view-body",
+		viewClass: ".view",
+		baseClass: ".views > *:last-child, body",
+		ms: 300,
+		overwrite: true,
+		slideStartPosition: 40,
+		slideCompletionRatio: 0.5
 	}
 
 	fetch(url) {
@@ -16,6 +20,7 @@ class nrouter {
 
 	navigate(url) {
 		var a = window.location;
+		this.dispatchEvent(new NEvent("navigate", { url, target: this }));
 		history.pushState({url: new URL("",location).href, powered_by: this.name}, null, url );
 	}
 

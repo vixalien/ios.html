@@ -1,14 +1,55 @@
 class nrouter {
 	defaults = {
-		viewPath: "views/",
-		headClass: ".view-head",
-		bodyClass: ".view-body",
-		viewClass: ".view",
-		baseClass: ".views > *:last-child, body",
-		ms: 300,
-		overwrite: true,
-		slideStartPosition: 40,
-		slideCompletionRatio: 0.5
+		root: location.href,
+		baseClass: "html",
+		viewClass: "body",
+		pushState: true,
+		hash: false,
+		currentContent: "",
+		start: "data:text/html;base64,PGgxPkxvYWRpbmc8L2gxPjxzcGFuPlBsZWFzZSB3YWl0Li4uPC9zcGFuPg",
+	}
+
+	constructor(options) {
+		console.log(options);
+		this.options = merge(this.defaults, options);
+		this.supported = {
+			pushState: typeof history.pushState == "function",
+			hash: typeof location.hash == "string",
+		}
+		this.init();
+	}
+
+	stack = []
+
+	init() {
+		// Pop states
+		window.onpopstate = e => { console.log(e); this.backLook(location.href) };
+		// Get all the elements by their selectors
+		this.view = document.querySelector(this.options.viewClass);
+		this.base = document.querySelector(this.options.baseClass);
+		// Get the current URL
+		if (this.base.tagName == "IFRAME") {
+			this.current = this.base.src;
+		} else {
+			this.current = this.innerHTML;
+		}
+		if (!(this.base && this.view)) {
+			throw new Error("Invalid selectors passed");
+		}
+		// Let's call this reinit
+		this.reinit = this.init;
+		this.init = undefined;
+		NHook.call(this);
+		this.dispatchEvent("create");
+	}
+
+	start(hash = false) {
+		var url = new URL(this.options.start, location).href;
+		this.stack.push({ url, method: "start" });
+		this.show(this.options.start, { nothing: true });
+		if(hash == true && this.options.hash && location.hash.length>1) {
+			this.show(location.hash.replace("#",""), {nothing: true})
+		}
 	}
 
 	fetch(url) {
@@ -18,65 +59,87 @@ class nrouter {
 		return a.responseText;
 	}
 
-	navigate(url) {
-		var a = window.location;
-		this.dispatchEvent(new NEvent("navigate", { url, target: this }));
-		history.pushState({url: new URL("",location).href, powered_by: this.name}, null, url );
+	navigate(url, options = {}) {
+		console.log("Started navig");
+		url = new URL(url, this.options.root).href;
+		options = merge(this.options, options);
+		console.log("Options", options);
+		// What navigation to do?
+		if (options.nothing) {
+			// Do nothing
+		} else if (options.hash && this.supported.hash) {
+			// Update the hash only
+			// Find the relative URL according to this
+			this.stack.push({ url, method: "hash" });
+			url = url.replace(location.origin + location.pathname, "");
+			location.hash = "#" + url;
+		} else if (options.pushState && this.supported.pushState) {
+			// Push it to the stack
+			history.pushState({}, null, url);
+			this.stack.push({ url, method: "push" });
+		}  else {
+			// Update this the good old way
+			location = url;
+			// You won't see this
+			this.stack.push({ url, method: "oldest" });
+		}
 	}
 
 	backLook(url) {
-		url = new URL(url, location).href
-		if (this.stack.includes(url)) {
-			console.log("included");
-			this.show(url, undefined, false);
-			var id = this.stack.findIndex(e => e == url);
-			this.stack.splice(id, this.stack.length - 1);
+		console.log("backLook", url);
+		var hash = false;
+		url = new URL(url, location);
+		// Check if it is a hash
+		if(url.hash.length>1) {
+			var h = url.hash.replace("#", "");
+			var newurl = new URL(h, location);
+			var id = this.stack.findIndex(e => (e.url == url && e.method == "hash"));
+			if(id>-1) {
+				hash = true;
+				this.stack.splice(id, this.stack.length - 1);
+				this.show(newurl.href, { nothing: true });
+			}
+		}
+		if(!hash) {
+			var id = this.stack.findIndex(e => (e.url == url && e.method == "push"));
+			if (id > -1) {
+				this.stack.splice(id, this.stack.length - 1);
+				this.show(url.href, { nothing: true });
+			}
 		} else {
-			console.log("not included");
-			this.show(url);
+			this.show(url.href, { nothing: true });
 		}
 	}
 
-	init() {
-		// Pop states
-		window.onpopstate = e => { console.log(e); this.backLook(location.href) };
-		// Get all the elements by their selectors
-		this.head = document.querySelector(this.options.headClass);
-		this.body = document.querySelector(this.options.bodyClass);
-		this.base = document.querySelector(this.options.baseClass);
-		// Init the stack
-		this.stack = [];
-		this.stack.push(window.location.href);
-		// Let's call this reinit
-		this.reinit = this.init;
-		this.init = undefined;
-		NHook.call(this);
-		this.dispatchEvent("create");
-	}
+	show(url, options = {}) {
+		url = new URL(url, this.options.root).href;
+		options = merge(this.options, options);
 
-	show(url, content = undefined, push = true) {
-		url = new URL(url, location).href;
-		if(!content) {
+		//
+		console.log("showing", url);
+
+		var content = "";
+		// Content provided?
+		if(options.content) {
+			content = options.content;
+		} else {
 			content = this.fetch(url);
 		}
+
+		// How to render content?
 		if(this.base.tagName=="IFRAME") {
-			this.base.src = url;
+			this.currentContent = this.base.src = url;
 		} else {
-			this.base.innerHTML = content;
+			this.currentContent = this.base.innerHTML = content;
 			// We've tried to put execScripts in this, but if done,
 			// it will eval the scripts in strict mode, which is bad.
 			execScripts(this.base);
 		}
-		this.stack.push(url);
-		if (push) {
-			this.navigate(url);
-		}
+
+		// Navigate
+		this.navigate(url, options);
 	} 
 
-	constructor(options) {
-		this.options = merge(this.defaults, options);
-		this.init();
-	}
 }
 
 var isObject = x =>

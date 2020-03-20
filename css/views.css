@@ -1,5 +1,5 @@
 
-/* line 297 : C:\sites\muzui\stylus\views.styl */
+/* line 297 : C:\Sites\muzui\stylus\views.styl */
 
 /* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
 
@@ -37,9 +37,9 @@
 
 /* line 92 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
 
-/* line 1 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 1 : C:\Sites\muzui\stylus\views\alerts.styl */
 
-/* line 1 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 1 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert {
   padding: 0;
   z-index: 100;
@@ -63,77 +63,77 @@
   backdrop-filter: saturate(180%) blur(10px);
 }
 
-/* line 22 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 22 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > * {
   padding: 10px 30px;
 }
 
-/* line 24 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 24 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > .title {
   margin: 5px 0 0 0;
 }
 
-/* line 26 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 26 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > p {
   margin: 0 0 5px 0;
   padding-top: 0;
 }
 
-/* line 29 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 29 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links {
   padding: 0;
 }
 
-/* line 31 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 31 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links > a {
   padding: 10px 30px;
   display: block;
   border-top: 1px solid system-gray-2;
 }
 
-/* line 35 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 35 : C:\Sites\muzui\stylus\views\alerts.styl */
 
-/* line 36 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 36 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links > a:active:last-child {
   border-radius: 0 0 10px 10px;
 }
 
-/* line 38 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 38 : C:\Sites\muzui\stylus\views\alerts.styl */
 
-/* line 39 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 39 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links {
   border-top: 1px solid system-gray-2;
   display: flex;
 }
 
-/* line 42 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 42 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a {
   flex: 1;
   border: 0;
   border-left: 1px solid system-gray-2;
 }
 
-/* line 46 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 46 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:last-child:active {
   border-radius: 0 0 10px 0;
 }
 
-/* line 48 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 48 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:first-child:active {
   border-radius: 0 0 0 10px;
 }
 
-/* line 50 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 50 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:first-child {
   border-left: 0;
 }
 
-/* line 52 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 52 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.active {
   display: flex;
 }
 
-/* line 54 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 54 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert-shadow {
   display: none;
   position: absolute;
@@ -146,22 +146,22 @@
   background-color: rgba(0,0,0,0.2);
 }
 
-/* line 64 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 64 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert-shadow.active {
   display: block;
 }
 
-/* line 66 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 66 : C:\Sites\muzui\stylus\views\alerts.styl */
 .view {
   transition: 0.3s;
 }
 
-/* line 68 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 68 : C:\Sites\muzui\stylus\views\alerts.styl */
 body {
   transition: 0.3s;
 }
 
-/* line 70 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 70 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal {
   transition: 0.3s;
   position: absolute;
@@ -176,12 +176,12 @@ body {
   padding: 10px;
 }
 
-/* line 82 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 82 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal.active {
   display: flex;
 }
 
-/* line 84 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 84 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal-bg {
   transition: 0.3s;
   border-radius: 10px;
@@ -193,57 +193,59 @@ body {
   background-color: system-gray-3;
 }
 
-/* line 72 : C:\sites\muzui\stylus\views\alerts.styl */
+/* line 73 : C:\Sites\muzui\stylus\views\alerts.styl */
 
-/* line 18 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 18 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 45 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 45 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 1 : C:\sites\muzui\stylus\vars.styl */
+/* line 1 : C:\Sites\muzui\stylus\vars.styl */
 
-/* line 3 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 3 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table {
   width: 100%;
   padding: 0;
 }
 
-/* line 6 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 6 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 7 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 7 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 8 : C:\sites\muzui\stylus\views\tables.styl */
-div.table.navigable > .body > div {
+/* line 8 : C:\Sites\muzui\stylus\views\tables.styl */
+
+/* line 9 : C:\Sites\muzui\stylus\views\tables.styl */
+div.table.navigable > .body > div[href] {
   cursor: pointer;
 }
 
-/* line 10 : C:\sites\muzui\stylus\views\tables.styl */
-div.table.navigable > .body > div:hover {
+/* line 11 : C:\Sites\muzui\stylus\views\tables.styl */
+div.table.navigable > .body > div[href]:hover {
   background-color: rgba(242,242,247,0.5);
 }
 
-/* line 12 : C:\sites\muzui\stylus\views\tables.styl */
-div.table.navigable > .body > div:active {
-  background-color: #d1d1d6;
+/* line 13 : C:\Sites\muzui\stylus\views\tables.styl */
+div.table.navigable > .body > div[href]:active {
+  background-color: rgba(209,209,214,0.5);
 }
 
-/* line 14 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 15 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 15 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 16 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table.round .body {
   border-radius: 20px;
   border: 1px solid #e5e5ea;
 }
 
-/* line 18 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 19 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 19 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 20 : C:\Sites\muzui\stylus\views\tables.styl */
 
-/* line 20 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 21 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > *:first-child {
   padding-left: 10px;
 }
 
-/* line 22 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 23 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .header,
 div.table > .footer {
   background-color: #f2f2f7;
@@ -253,18 +255,18 @@ div.table > .footer {
   margin-top: 0;
 }
 
-/* line 28 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 29 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .header {
   padding: 25px 10px 5px 10px;
 }
 
-/* line 30 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 31 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .footer {
   padding: 10px;
   font-size: small;
 }
 
-/* line 33 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 34 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body {
   border-top: 1px solid #e5e5ea;
   background-color: #fff;
@@ -272,7 +274,7 @@ div.table > .body {
   flex-direction: column;
 }
 
-/* line 38 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 39 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * {
   padding: 5px;
   border-bottom: 1px solid #f2f2f7;
@@ -282,28 +284,28 @@ div.table > .body > * {
   min-height: 30px;
 }
 
-/* line 45 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 46 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > * {
   margin: auto 5px auto 0;
 }
 
-/* line 47 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 48 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > *:last-child:not(:first-child) {
   text-align: right;
 }
 
-/* line 49 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 50 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * .faded {
   color: #8e8e93;
 }
 
-/* line 51 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 52 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * img {
   width: 24px;
   margin: auto 5px !important;
 }
 
-/* line 54 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 55 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * .next::after {
   content: 'H';
   color: transparent;
@@ -319,7 +321,7 @@ div.table > .body > * .next::after {
   background-color: inherit;
 }
 
-/* line 67 : C:\sites\muzui\stylus\views\tables.styl */
+/* line 68 : C:\Sites\muzui\stylus\views\tables.styl */
 .inset {
   background-color: #f2f2f7;
   width: auto;

@@ -1,0 +1,28 @@
+@keyframes to-left {
+	from {
+		opacity 0
+		left 100%
+	}
+
+	to {
+		opacity 1
+		left 0
+	}
+}
+@keyframes from-left {
+	from {
+		opacity 1
+		left 100%
+	}
+
+	to {
+		opacity 0
+		left 0
+	}
+}
+.in-left
+	position relative
+	animation to-left .3s ease-out
+.out-left
+	position relative
+	animation from-left .3s ease-out

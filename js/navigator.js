@@ -47,9 +47,28 @@ class router {
 		},
 		create: function(content, model = document.createElement("div")) {
 			// Create an element, then transite it to there
-			var elem = document.createElement(model.tagName);
+			var elem = document.createElement("div");
 			elem.classList = model.classList;
 			elem.innerHTML = content;
+			// Save the bounding rect
+			elem.rect = model.getBoundingClientRect();
+			// Set the position as 0
+			this.host(elem);
+			this.fade(elem, 0);
+			elem.style.top = elem.rect.top;
+			elem.style.left = "100vw";
+			elem.style.position = "absolute";
+			elem.style.bottom = elem.rect.bottom;
+			elem.style.right = elem.rect.right;
+			elem.style.width = elem.rect.width;
+			elem.style.height = elem.rect.height;
+			this.translate(elem);
+			a = this;
+			setTimeout(function() {
+				a.fade(elem, 1);
+				elem.style.left = elem.rect.left;
+			}, 100);
+			
 			return elem;
 		},
 		offset: function(elem) {
@@ -68,8 +87,8 @@ class router {
 		},
 		slide: function(elem, ratio = 0) {
 			// Slide an element into view
-			elem.style.left = (ratio * 100) + "%";
-			elem.style.right = -(ratio * 100) + "%";
+			elem.style.left = "calc(" + (ratio * 100) + "% + " + elem.rect.top + ")";
+			elem.style.right = "calc(" + (-(ratio * 100)) + "% + " + elem.rect.top + ")";
 		},
 		fade: function(elem, ratio = 0) {
 			// Fade an element out of view

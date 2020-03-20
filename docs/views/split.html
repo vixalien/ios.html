@@ -14,7 +14,7 @@
 			</div>
 		</div>
 	</div>
-	<iframe class="view secondary-view" src="/docs/main.html">
+	<iframe class="view secondary-view" src="">
 		You would need a recent browser to display this
 	</iframe>
 </div>
@@ -50,7 +50,7 @@
 </script>
 <script type="text/javascript" class="hooker">
 	// Init a router
-	var router = new nrouter({baseClass: ".secondary-view"})
+	var router = new nrouter({baseClass: ".secondary-view", start: "main.html"})
 	var hrefs = document.querySelectorAll("[href]");
 	for (var i = 0; i < hrefs.length; i++) {
 		hrefs[i].onclick = function(e) {

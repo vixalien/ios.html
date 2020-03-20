@@ -6,11 +6,12 @@ div.table
 	&.navigable
 		> .body
 			> div
-				cursor pointer
-				&:hover
-					background-color rgba(system-gray-6, 0.5)
-				&:active
-					background-color system-gray-4
+				&[href]
+					cursor pointer
+					&:hover
+						background-color rgba(system-gray-6, 0.5)
+					&:active
+						background-color rgba(system-gray-4, 0.5)
 	&.round
 		.body
 			border-radius 20px

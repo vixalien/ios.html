@@ -13,11 +13,13 @@
 var leads = document.querySelectorAll(".view.lead");
 for (var i = 0; i < leads.length; i++) {
 	leads[i].onscroll = function(e) {
-		if (e.target.scrollTop < 5) {
-			e.target.classList.add("lead");
-		} else {
-			e.target.classList.remove("lead");
-		}
+		setTimeout(function() {
+			if (e.target.scrollTop == 0) {
+				e.target.classList.add("lead");
+			} else {
+				e.target.classList.remove("lead");
+			}
+		}, 10);
 	}
 }
 
