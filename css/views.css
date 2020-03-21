@@ -1,45 +1,3 @@
-
-/* line 297 : C:\Sites\muzui\stylus\views.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 92 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Sites\muzui\stylus\views\alerts.styl */
-
-/* line 1 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert {
   padding: 0;
   z-index: 100;
@@ -62,78 +20,48 @@
   background-color: rgba(255,255,255,0.8);
   backdrop-filter: saturate(180%) blur(10px);
 }
-
-/* line 22 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > * {
   padding: 10px 30px;
 }
-
-/* line 24 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > .title {
   margin: 5px 0 0 0;
 }
-
-/* line 26 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert > p {
   margin: 0 0 5px 0;
   padding-top: 0;
 }
-
-/* line 29 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links {
   padding: 0;
 }
-
-/* line 31 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links > a {
   padding: 10px 30px;
   display: block;
   border-top: 1px solid system-gray-2;
 }
-
-/* line 35 : C:\Sites\muzui\stylus\views\alerts.styl */
-
-/* line 36 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert .links > a:active:last-child {
   border-radius: 0 0 10px 10px;
 }
-
-/* line 38 : C:\Sites\muzui\stylus\views\alerts.styl */
-
-/* line 39 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links {
   border-top: 1px solid system-gray-2;
   display: flex;
 }
-
-/* line 42 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a {
   flex: 1;
   border: 0;
   border-left: 1px solid system-gray-2;
 }
-
-/* line 46 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:last-child:active {
   border-radius: 0 0 10px 0;
 }
-
-/* line 48 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:first-child:active {
   border-radius: 0 0 0 10px;
 }
-
-/* line 50 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.mini .links > a:first-child {
   border-left: 0;
 }
-
-/* line 52 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert.active {
   display: flex;
 }
-
-/* line 54 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert-shadow {
   display: none;
   position: absolute;
@@ -145,23 +73,15 @@
   height: auto;
   background-color: rgba(0,0,0,0.2);
 }
-
-/* line 64 : C:\Sites\muzui\stylus\views\alerts.styl */
 .alert-shadow.active {
   display: block;
 }
-
-/* line 66 : C:\Sites\muzui\stylus\views\alerts.styl */
 .view {
   transition: 0.3s;
 }
-
-/* line 68 : C:\Sites\muzui\stylus\views\alerts.styl */
 body {
   transition: 0.3s;
 }
-
-/* line 70 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal {
   transition: 0.3s;
   position: absolute;
@@ -175,13 +95,9 @@ body {
   display: none;
   padding: 10px;
 }
-
-/* line 82 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal.active {
   display: flex;
 }
-
-/* line 84 : C:\Sites\muzui\stylus\views\alerts.styl */
 .modal-bg {
   transition: 0.3s;
   border-radius: 10px;
@@ -192,60 +108,26 @@ body {
   transform: scale(0.95);
   background-color: system-gray-3;
 }
-
-/* line 73 : C:\Sites\muzui\stylus\views\alerts.styl */
-
-/* line 18 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 45 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 1 : C:\Sites\muzui\stylus\vars.styl */
-
-/* line 3 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table {
   width: 100%;
   padding: 0;
 }
-
-/* line 6 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 7 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 8 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 9 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table.navigable > .body > div[href] {
   cursor: pointer;
 }
-
-/* line 11 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table.navigable > .body > div[href]:hover {
   background-color: rgba(242,242,247,0.5);
 }
-
-/* line 13 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table.navigable > .body > div[href]:active {
   background-color: rgba(209,209,214,0.5);
 }
-
-/* line 15 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 16 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table.round .body {
   border-radius: 20px;
   border: 1px solid #e5e5ea;
 }
-
-/* line 19 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 20 : C:\Sites\muzui\stylus\views\tables.styl */
-
-/* line 21 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > *:first-child {
   padding-left: 10px;
 }
-
-/* line 23 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .header,
 div.table > .footer {
   background-color: #f2f2f7;
@@ -254,27 +136,19 @@ div.table > .footer {
   text-align: inherit;
   margin-top: 0;
 }
-
-/* line 29 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .header {
   padding: 25px 10px 5px 10px;
 }
-
-/* line 31 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .footer {
   padding: 10px;
   font-size: small;
 }
-
-/* line 34 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body {
   border-top: 1px solid #e5e5ea;
   background-color: #fff;
   display: flex;
   flex-direction: column;
 }
-
-/* line 39 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * {
   padding: 5px;
   border-bottom: 1px solid #f2f2f7;
@@ -283,33 +157,23 @@ div.table > .body > * {
   justify-content: space-between;
   min-height: 30px;
 }
-
-/* line 46 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > * {
   margin: auto 5px auto 0;
 }
-
-/* line 48 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * > *:last-child:not(:first-child) {
   text-align: right;
 }
-
-/* line 50 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * .faded {
   color: #8e8e93;
 }
-
-/* line 52 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * img {
   width: 24px;
   margin: auto 5px !important;
 }
-
-/* line 55 : C:\Sites\muzui\stylus\views\tables.styl */
 div.table > .body > * .next::after {
   content: 'H';
   color: transparent;
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMjk0LjEgMjU2TDE2NyAxMjljLTkuNC05LjQtOS40LTI0LjYgMC0zMy45czI0LjYtOS4zIDM0IDBMMzQ1IDIzOWM5LjEgOS4xIDkuMyAyMy43LjcgMzMuMUwyMDEuMSA0MTdjLTQuNyA0LjctMTAuOSA3LTE3IDdzLTEyLjMtMi4zLTE3LTdjLTkuNC05LjQtOS40LTI0LjYgMC0zMy45bDEyNy0xMjcuMXoiIGZpbGw9InJnYigxNDIsIDE0MiwgMTQ3KSIvPjwvc3ZnPg==");
+  background: url("/img/demo/right.svg");
   width: 34px;
   height: auto;
   display: inline-block;
@@ -320,8 +184,6 @@ div.table > .body > * .next::after {
   margin: auto 0;
   background-color: inherit;
 }
-
-/* line 68 : C:\Sites\muzui\stylus\views\tables.styl */
 .inset {
   background-color: #f2f2f7;
   width: auto;

@@ -1,0 +1,173 @@
+.icon {
+  width: 30px;
+  height: 30px;
+  display: block;
+  background-size: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.icon.navigation-action {
+  background-image: url("../../img/icons/navigation/action.png");
+}
+.icon.navigation-add {
+  background-image: url("../../img/icons/navigation/add.png");
+}
+.icon.navigation-bookmark {
+  background-image: url("../../img/icons/navigation/bookmark.png");
+}
+.icon.navigation-camera {
+  background-image: url("../../img/icons/navigation/camera.png");
+}
+.icon.navigation-compose {
+  background-image: url("../../img/icons/navigation/compose.png");
+}
+.icon.navigation-fastForward {
+  background-image: url("../../img/icons/navigation/fastForward.png");
+}
+.icon.navigation-organize {
+  background-image: url("../../img/icons/navigation/organize.png");
+}
+.icon.navigation-pause {
+  background-image: url("../../img/icons/navigation/pause.png");
+}
+.icon.navigation-play {
+  background-image: url("../../img/icons/navigation/play.png");
+}
+.icon.navigation-refresh {
+  background-image: url("../../img/icons/navigation/refresh.png");
+}
+.icon.navigation-reply {
+  background-image: url("../../img/icons/navigation/reply.png");
+}
+.icon.navigation-rewind {
+  background-image: url("../../img/icons/navigation/rewind.png");
+}
+.icon.navigation-search {
+  background-image: url("../../img/icons/navigation/search.png");
+}
+.icon.navigation-stop {
+  background-image: url("../../img/icons/navigation/stop.png");
+}
+.icon.navigation-trash {
+  background-image: url("../../img/icons/navigation/trash.png");
+}
+.icon.tab_bar-bookmark {
+  background-image: url("../../img/icons/tab_bar/bookmark.png");
+}
+.icon.tab_bar-contacts {
+  background-image: url("../../img/icons/tab_bar/contacts.png");
+}
+.icon.tab_bar-downloads {
+  background-image: url("../../img/icons/tab_bar/downloads.png");
+}
+.icon.tab_bar-favorites {
+  background-image: url("../../img/icons/tab_bar/favorites.png");
+}
+.icon.tab_bar-featured {
+  background-image: url("../../img/icons/tab_bar/featured.png");
+}
+.icon.tab_bar-history {
+  background-image: url("../../img/icons/tab_bar/history.png");
+}
+.icon.tab_bar-more {
+  background-image: url("../../img/icons/tab_bar/more.png");
+}
+.icon.tab_bar-mostRecent {
+  background-image: url("../../img/icons/tab_bar/mostRecent.png");
+}
+.icon.tab_bar-mostViewed {
+  background-image: url("../../img/icons/tab_bar/mostViewed.png");
+}
+.icon.tab_bar-search {
+  background-image: url("../../img/icons/tab_bar/search.png");
+}
+.icon.tab_bar-topRated {
+  background-image: url("../../img/icons/tab_bar/topRated.png");
+}
+.icon.quick_action-add {
+  background-image: url("../../img/icons/quick_action/add.png");
+}
+.icon.quick_action-alarm {
+  background-image: url("../../img/icons/quick_action/alarm.png");
+}
+.icon.quick_action-audio {
+  background-image: url("../../img/icons/quick_action/audio.png");
+}
+.icon.quick_action-bookmark {
+  background-image: url("../../img/icons/quick_action/bookmark.png");
+}
+.icon.quick_action-capturePhoto {
+  background-image: url("../../img/icons/quick_action/capturePhoto.png");
+}
+.icon.quick_action-captureVideo {
+  background-image: url("../../img/icons/quick_action/captureVideo.png");
+}
+.icon.quick_action-cloud {
+  background-image: url("../../img/icons/quick_action/cloud.png");
+}
+.icon.quick_action-compose {
+  background-image: url("../../img/icons/quick_action/compose.png");
+}
+.icon.quick_action-confirmation {
+  background-image: url("../../img/icons/quick_action/confirmation.png");
+}
+.icon.quick_action-contact {
+  background-image: url("../../img/icons/quick_action/contact.png");
+}
+.icon.quick_action-date {
+  background-image: url("../../img/icons/quick_action/date.png");
+}
+.icon.quick_action-favorite {
+  background-image: url("../../img/icons/quick_action/favorite.png");
+}
+.icon.quick_action-home {
+  background-image: url("../../img/icons/quick_action/home.png");
+}
+.icon.quick_action-invitation {
+  background-image: url("../../img/icons/quick_action/invitation.png");
+}
+.icon.quick_action-location {
+  background-image: url("../../img/icons/quick_action/location.png");
+}
+.icon.quick_action-love {
+  background-image: url("../../img/icons/quick_action/love.png");
+}
+.icon.quick_action-mail {
+  background-image: url("../../img/icons/quick_action/mail.png");
+}
+.icon.quick_action-markLocation {
+  background-image: url("../../img/icons/quick_action/markLocation.png");
+}
+.icon.quick_action-message {
+  background-image: url("../../img/icons/quick_action/message.png");
+}
+.icon.quick_action-pause {
+  background-image: url("../../img/icons/quick_action/pause.png");
+}
+.icon.quick_action-play {
+  background-image: url("../../img/icons/quick_action/play.png");
+}
+.icon.quick_action-prohibit {
+  background-image: url("../../img/icons/quick_action/prohibit.png");
+}
+.icon.quick_action-search {
+  background-image: url("../../img/icons/quick_action/search.png");
+}
+.icon.quick_action-share {
+  background-image: url("../../img/icons/quick_action/share.png");
+}
+.icon.quick_action-shuffle {
+  background-image: url("../../img/icons/quick_action/shuffle.png");
+}
+.icon.quick_action-task {
+  background-image: url("../../img/icons/quick_action/task.png");
+}
+.icon.quick_action-taskCompleted {
+  background-image: url("../../img/icons/quick_action/taskCompleted.png");
+}
+.icon.quick_action-time {
+  background-image: url("../../img/icons/quick_action/time.png");
+}
+.icon.quick_action-update {
+  background-image: url("../../img/icons/quick_action/update.png");
+}

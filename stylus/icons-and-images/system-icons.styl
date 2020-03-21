@@ -1,0 +1,16 @@
+.icon
+	width 30px
+	height 30px
+	display block
+	background-size auto
+	background-position center
+	background-repeat no-repeat
+	for i in action add bookmark camera compose fastForward organize pause play refresh reply rewind search stop trash
+		&.navigation-{i}
+			background-image url('../../../img/icons/navigation/'+i+'.png')
+	for i in bookmark contacts downloads favorites featured history more mostRecent mostViewed search topRated
+		&.tab_bar-{i}
+			background-image url('../../../img/icons/tab_bar/'+i+'.png')
+	for i in add alarm audio bookmark capturePhoto captureVideo cloud compose confirmation contact date favorite home invitation location love mail markLocation message pause play prohibit search share shuffle task taskCompleted time update
+		&.quick_action-{i}
+			background-image url('../../../img/icons/quick_action/'+i+'.png')

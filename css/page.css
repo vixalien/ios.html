@@ -1,29 +1,3 @@
-
-/* line 297 : C:\Sites\muzui\stylus\page.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 297 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Users\Alien\AppData\Roaming\npm\node_modules\stylus\lib\functions\index.styl */
-
-/* line 1 : C:\Sites\muzui\stylus\page.styl */
 body {
   padding: 0;
   margin: 0;
@@ -31,80 +5,52 @@ body {
   line-height: 1.25em;
   background-color: #fafafa;
 }
-
-/* line 7 : C:\Sites\muzui\stylus\page.styl */
 body .view {
   padding: initial;
 }
-
-/* line 10 : C:\Sites\muzui\stylus\page.styl */
 .views {
   width: 100%;
   height: 100%;
 }
-
-/* line 13 : C:\Sites\muzui\stylus\page.styl */
 .views .collapse-bar {
   display: none;
 }
-
-/* line 15 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views {
   display: grid;
   overflow-x: hidden;
 }
-
-/* line 18 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views > .view {
   overflow: auto;
   box-sizing: border-box;
   border-left: 1px solid system-gray-5;
 }
-
-/* line 22 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views > .view:last-child {
   background-color: system-gray-6;
 }
-
-/* line 24 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views.split-1-3 {
   grid-template-columns: 33.3% 66.7%;
 }
-
-/* line 26 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views.split-2-3 {
   grid-template-columns: 66.7% 33.3%;
 }
-
-/* line 28 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views.split-1-2 {
   grid-template-columns: 50% 50%;
 }
-
-/* line 30 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views.split-small-large {
   grid-template-columns: 250px auto;
 }
-
-/* line 32 : C:\Sites\muzui\stylus\page.styl */
 .views.split-views.split-large-small {
   grid-template-columns: auto 250px;
 }
-
-/* line 34 : C:\Sites\muzui\stylus\page.styl */
 .view {
   width: 100%;
   height: 100%;
   overflow: auto;
   background-color: #fff;
 }
-
-/* line 39 : C:\Sites\muzui\stylus\page.styl */
 .view > * {
   padding: 3px 1em;
 }
-
-/* line 41 : C:\Sites\muzui\stylus\page.styl */
 ::selection {
   background-color: #d1d1d1;
 }
