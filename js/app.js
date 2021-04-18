@@ -173,3 +173,6 @@ class modal {
 		this.visible = false;
 	}
 }
+
+// register sw
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('/sw.js', { scope: '/' })
