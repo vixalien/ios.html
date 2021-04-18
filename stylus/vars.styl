@@ -17,12 +17,14 @@ system-dark-gray-5 = rgb(44, 44, 46)
 system-dark-gray-6 = rgb(28, 28, 30)
 
 mask-image(args)
-	-webkit-mask-size cover;
-	mask-size cover
-	background args
-	background black
 	mask-image args
+	mask-size: auto;
+	mask-repeat: no-repeat;
+	mask-position: center;
 	-webkit-mask-image args
+	-webkit-mask-size: auto;
+	-webkit-mask-repeat: no-repeat;
+	-webkit-mask-position: center;
 	
 appearance(args)
 	appearance args
@@ -37,6 +39,7 @@ border-horizontal-spacing(val)
 	-o-border-horizontal-spacing val
 	-ms-border-horizontal-spacing val
 	border-horizontal-spacing val
+
 border-vertical-spacing(val)
 	-webkit-border-vertical-spacing val
 	-moz-border-vertical-spacing val

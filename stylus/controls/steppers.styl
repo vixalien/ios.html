@@ -1,13 +1,27 @@
 .stepper
 	display flex
+	text-align center
+	background-color: transparent;
 	border 1px solid link-color
-	border-radius 3px
-	.minus, .plus
-		width 1em
-		height 1em
-	.minus
-		mask-image url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMzY4LjUgMjQwaC0yMjVjLTguOCAwLTE2IDcuMi0xNiAxNiAwIDQuNCAxLjggOC40IDQuNyAxMS4zIDIuOSAyLjkgNi45IDQuNyAxMS4zIDQuN2gyMjVjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZ6Ii8+PC9zdmc+')
-		background-color link-color
-	.plus
-		mask-image url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBkPSJNMzY4LjUgMjQwSDI3MnYtOTYuNWMwLTguOC03LjItMTYtMTYtMTZzLTE2IDcuMi0xNiAxNlYyNDBoLTk2LjVjLTguOCAwLTE2IDcuMi0xNiAxNiAwIDQuNCAxLjggOC40IDQuNyAxMS4zIDIuOSAyLjkgNi45IDQuNyAxMS4zIDQuN0gyNDB2OTYuNWMwIDQuNCAxLjggOC40IDQuNyAxMS4zIDIuOSAyLjkgNi45IDQuNyAxMS4zIDQuNyA4LjggMCAxNi03LjIgMTYtMTZWMjcyaDk2LjVjOC44IDAgMTYtNy4yIDE2LTE2cy03LjItMTYtMTYtMTZ6Ii8+PC9zdmc+')
-		background-color link-color
+	border-radius 10px
+	padding 0
+	overflow hidden
+	width fit-content
+	min-width 100px
+	& > *
+		transition .3s
+		color link-color
+		padding 5px
+		border-radius 0
+		font-size 1.5em
+		font-weight 500
+		flex 1
+		text-align center
+		border-top unset
+		position initial
+		cursor pointer
+		border-right 1px solid link-color
+		&:first-child
+			content: "—"
+		&:last-child
+			border-right 0

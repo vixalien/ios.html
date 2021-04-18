@@ -4,6 +4,82 @@
 		"selected_items":
 		[
 			[
+				"offs",
+				"offsetHeight"
+			],
+			[
+				"get",
+				"get\tGet Elements"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"update",
+				"updateSelection"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"ma",
+				"mainElement\twarning"
+			],
+			[
+				"G",
+				"Ghost\tfunction"
+			],
+			[
+				"elem",
+				"Element\tvar"
+			],
+			[
+				"A",
+				"Array\tvar"
+			],
+			[
+				"HTM",
+				"HTMLElement\tvar"
+			],
+			[
+				"f",
+				"f\tAnonymous Function"
+			],
+			[
+				"re",
+				"replace\twarning"
+			],
+			[
+				"rep",
+				"replace\tmethod"
+			],
+			[
+				"loca",
+				"location\twarning"
+			],
+			[
+				"op",
+				"options\tproperty"
+			],
+			[
+				"lo",
+				"log\tmethod"
+			],
+			[
+				"con",
+				"content\tproperty"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"def",
+				"defaultMimes\tvar"
+			],
+			[
 				"rel",
 				"relative\twarning"
 			],
@@ -40,10 +116,6 @@
 				"overflowX\tproperty"
 			],
 			[
-				"class",
-				"classList\twarning"
-			],
-			[
 				"loc",
 				"location\tvar"
 			],
@@ -54,10 +126,6 @@
 			[
 				"string",
 				"stringify\tmethod"
-			],
-			[
-				"loca",
-				"localStorage\tvar"
 			],
 			[
 				"bas",
@@ -76,16 +144,8 @@
 				"computedStyleMap"
 			],
 			[
-				"f",
-				"fun\tFunction"
-			],
-			[
 				"from",
 				"from_box"
-			],
-			[
-				"get",
-				"getBoundingClientRect"
 			],
 			[
 				"childe",
@@ -160,10 +220,6 @@
 				"padding"
 			],
 			[
-				"con",
-				"contenteditable"
-			],
-			[
 				"up",
 				"updatePopup"
 			],
@@ -236,10 +292,6 @@
 				"appendChild\tmethod"
 			],
 			[
-				"me",
-				"meta\tTag"
-			],
-			[
 				"in",
 				"input\tTag"
 			],
@@ -250,10 +302,6 @@
 			[
 				"tar",
 				"target\tproperty"
-			],
-			[
-				"re",
-				"registerAll\tproperty"
 			],
 			[
 				"sto",
@@ -466,54 +514,6 @@
 			[
 				"at",
 				"attributes\tproperty"
-			],
-			[
-				"par",
-				"parseattr"
-			],
-			[
-				"cons",
-				"constructor"
-			],
-			[
-				"ev",
-				"event"
-			],
-			[
-				"bla",
-				"black-holes"
-			],
-			[
-				"li",
-				"link\tTag"
-			],
-			[
-				"prevLine",
-				"prevLineIsHr\tlocal var"
-			],
-			[
-				"atte",
-				"attendance"
-			],
-			[
-				"upda",
-				"updated_at"
-			],
-			[
-				"curr",
-				"current_session"
-			],
-			[
-				"sta",
-				"state_prov"
-			],
-			[
-				"lo",
-				"longitude"
-			],
-			[
-				"lat",
-				"latitude"
 			]
 		]
 	},
@@ -529,81 +529,40 @@
 			}
 		},
 		{
-			"file": "docs/views/split.html",
+			"file": "docs/icons-and-images/system-icons.html",
 			"settings":
 			{
-				"buffer_size": 2160,
-				"encoding": "UTF-8",
-				"line_ending": "Windows",
-				"name": "<div class=\"view lead\">"
-			}
-		},
-		{
-			"file": "docs/index.html",
-			"settings":
-			{
-				"buffer_size": 2057,
+				"buffer_size": 11191,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "docs/main.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 624,
+				"buffer_size": 925,
 				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 4544,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class nrouter {\n\tdefaults = {\n\t\tviewPath: \"views/\",\n\t\theadClass: \".view-head\",\n\t\tbodyClass: \".view-body\",\n\t\tviewClass: \".view\",\n\t\tbaseClass: \".views > *:last-child, body\",\n\t\tms: 300,\n\t\toverwrite: true,\n\t\tslideStartPosition: 40,\n\t\tslideCompletionRatio: 0.5\n\t}\n\n\tfetch(url) {\n\t\tvar a = new XMLHttpRequest;\n\t\ta.open(\"GET\", url, false);\n\t\ta.send();\n\t\treturn a.responseText;\n\t}\n\n\tnavigate(url) {\n\t\tvar a = window.location;\n\t\tthis.dispatchEvent(new NEvent(\"navigate\", { url, target: this }));\n\t\thistory.pushState({url: new URL(\"\",location).href, powered_by: this.name}, null, url );\n\t}\n\n\tbackLook(url) {\n\t\turl = new URL(url, location).href\n\t\tif (this.stack.includes(url)) {\n\t\t\tconsole.log(\"included\");\n\t\t\tthis.show(url, undefined, false);\n\t\t\tvar id = this.stack.findIndex(e => e == url);\n\t\t\tthis.stack.splice(id, this.stack.length - 1);\n\t\t} else {\n\t\t\tconsole.log(\"not included\");\n\t\t\tthis.show(url);\n\t\t}\n\t}\n\n\tinit() {\n\t\t// Pop states\n\t\twindow.onpopstate = e => { console.log(e); this.backLook(location.href) };\n\t\t// Get all the elements by their selectors\n\t\tthis.head = document.querySelector(this.options.headClass);\n\t\tthis.body = document.querySelector(this.options.bodyClass);\n\t\tthis.base = document.querySelector(this.options.baseClass);\n\t\t// Init the stack\n\t\tthis.stack = [];\n\t\tthis.stack.push(window.location.href);\n\t\t// Let's call this reinit\n\t\tthis.reinit = this.init;\n\t\tthis.init = undefined;\n\t\tNHook.call(this);\n\t\tthis.dispatchEvent(\"create\");\n\t}\n\n\tshow(url, content = undefined, push = true) {\n\t\turl = new URL(url, location).href;\n\t\tif(!content) {\n\t\t\tcontent = this.fetch(url);\n\t\t}\n\t\tif(this.base.tagName==\"IFRAME\") {\n\t\t\tthis.base.src = url;\n\t\t} else {\n\t\t\tthis.base.innerHTML = content;\n\t\t\t// We've tried to put execScripts in this, but if done,\n\t\t\t// it will eval the scripts in strict mode, which is bad.\n\t\t\texecScripts(this.base);\n\t\t}\n\t\tthis.stack.push(url);\n\t\tif (push) {\n\t\t\tthis.navigate(url);\n\t\t}\n\t} \n\n\tconstructor(options) {\n\t\tthis.options = merge(this.defaults, options);\n\t\tthis.init();\n\t}\n}\n\nvar isObject = x =>\n\tObject(x) === x\n\nvar merge = (left = {}, right = {}) =>\n\tObject.entries(right)\n\t\t.reduce\n\t\t((acc, [k, v]) =>\n\t\t\tisObject(v) && isObject(left[k])\n\t\t\t\t? { ...acc, [k]: merge(left[k], v) }\n\t\t\t\t: { ...acc, [k]: v }\n\t\t\t, left\n\t\t);\n\nfunction execScripts(base = document) {\n\t// Fetch remote scripts\n\tvar withsrc = base.querySelectorAll(\"script[src]\");\n\tfor (var i = 0; i < withsrc.length; i++) {\n\t\twithsrc[i].innerHTML = NUtils.fetch(withsrc[i].getAttribute(\"src\"));\n\t\twithsrc[i].removeAttribute(\"src\");\n\t}\n\t// Execute all scripts\n\tvar src = base.querySelectorAll(\"script\");\n\tfor (var i = 0; i < src.length; i++) {\n\t\teval(src[i].innerHTML);\n\t}\n}\n\nvar NUtils = {\n\tfetch:  function(url) {\n\t\tvar a = new XMLHttpRequest;\n\t\ta.open(\"GET\", url, false);\n\t\ta.send();\n\t\treturn a.responseText;\n\t}\n}\n\nfunction NEvent(name, eventInitDict = {}) {\n\t// Constructs a new event\n\t// Making new events with Event fails because you can't actually edit eventInitDict\n\tif (typeof name == \"undefined\") {\n\t\t// Checks that the name parameter is present\n\t\tthrow new TypeError(\"Failed to construct '\" + this.name + \"': 1 argument required, but only 0 present.\");\n\t} else if (typeof eventInitDict != \"object\") {\n\t\t// Checks that the second parameter is an object\n\t\tthrow new TypeError(\"Failed to construct '\" + this.name + \"': parameter 2 ('eventInitDict') is not an object.\");\n\t}\n\t// Initialize the event with some stuff, then set the second param, then override some props\n\tname = name.toString();\n\tev = {\n\t\t...{\n\t\t\ttarget: null,\n\t\t\tcurrentTarget: null,\n\t\t\teventPhase: 0,\n\t\t\tbubbles: false,\n\t\t\tcancelable: false,\n\t\t\tdefaultPrevented: false,\n\t\t\tcomposed: false,\n\t\t\tsrcElement: null,\n\t\t\treturnValue: true,\n\t\t\tcancelBubble: false,\n\t\t\tpath: []\n\t\t},\n\t\t...eventInitDict,\n\t\t...{\n\t\t\tisTrusted: false,\n\t\t\ttype: name,\n\t\t\ttimeStamp: Date.now(),\n\t\t}\n\t}\n\treturn ev;\n}\n// NHook is a constructor for hooking (listening and triggering Events)\nfunction NHook() {\n\t// Part 1 : Listeners\n\tthis.listeners = [];\n\t// Add an event\n\tthis.addEventListener = function(name, fn) {\n\t\tthis.listeners.push([name, fn]);\n\t\treturn true;\n\t}\n\n\t// Alias = on\n\tthis.on = this.addEventListener;\n\n\t// Remove an event\n\t// How it works: checks for added events with the given name and name of function (fn.name)\n\tthis.removeEventListener = function(name, fn) {\n\t\tvar keys = [];\n\t\tvar currkey = -1;\n\t\tvar listeners = this.listeners.filter(function(elem) {\n\t\t\tcurrkey += 1;\n\t\t\tvar valid = (elem[0] == name) && (elem[1].name.indexOf(fnname) >= 0);\n\t\t\tif (valid) {\n\t\t\t\tkeys.push(currkey);\n\t\t\t}\n\t\t});\n\t\tfor (var i = 0; i < keys.length; i++) {\n\t\t\tthis.listeners.splice(keys[i], 1);\n\t\t}\n\t}\n\n\t// off is an alias for removeEventListener\n\tthis.off = this.addEventListener;\n\n\t// Dispatch an event\n\t// TODO: Check if param is an event\n\tthis.dispatchEvent = function(event) {\n\t\tfor (var i = 0; i < this.listeners.length; i++) {\n\t\t\tif (this.listeners[i][0] == event.type) {\n\t\t\t\tthis.listeners[i][1](event);\n\t\t\t}\n\t\t}\n\t}\n\n\t// trigger is an alias for dispatchEvent\n\tthis.trigger = this.dispatchEvent;\n}\n\nparse = elems => (elems.reduce((e, j) => isReact(j) ? [...e, `<${j.type}>${parse([temp1[1].props.children || [\"\", \"\"]] .flat()) }</${ j.type }>`] : [...e, j.toString()] )).join(\"\")",
+			"file": "js/navig2.js",
+			"file_size": 5233,
+			"file_write_time": 132291077779878826,
+			"settings":
+			{
+				"buffer_size": 5218,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "stylus/bars/nav.styl",
-			"settings":
-			{
-				"buffer_size": 1375,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "css/app.css",
-			"settings":
-			{
-				"buffer_size": 911125,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/relativeToBaseDir.js",
-			"settings":
-			{
-				"buffer_size": 357,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/isPathAbsolute.js",
-			"settings":
-			{
-				"buffer_size": 111,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/Readme.md",
-			"settings":
-			{
-				"buffer_size": 5991,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/url.js",
-			"settings":
-			{
-				"buffer_size": 4197,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -775,7 +734,7 @@
 	},
 	"console":
 	{
-		"height": 225.0,
+		"height": 414.0,
 		"history":
 		[
 			"sublime",
@@ -804,33 +763,103 @@
 	"expanded_folders":
 	[
 		"/C/Sites/muzui",
-		"/C/Sites/muzui/css",
-		"/C/Sites/muzui/docs",
-		"/C/Sites/muzui/docs/bars",
-		"/C/Sites/muzui/js",
-		"/C/Sites/muzui/stylus",
-		"/C/Sites/muzui/stylus/bars",
-		"/C/Sites/muzui/stylus/controls",
-		"/C/Sites/muzui/stylus/views"
+		"/C/Sites/muzui/js"
 	],
 	"file_history":
 	[
-		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/index.js",
-		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/cache/index.js",
-		"/C/Sites/muzui/stylus/font-load.styl",
+		"/C/Sites/muzui/manifest.json",
+		"/C/Sites/muzika/sw.js",
+		"/C/Sites/muzui/js/model.js",
+		"/C/Sites/muzui/stylus/icons-and-images/system-icons.styl",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/url.js",
+		"/C/Sites/muzui/stylus/icons-and-images.styl",
+		"/C/Sites/muzui/sw.js",
+		"/C/Sites/muzui/stylus/app.styl",
+		"/C/Sites/muzui/stylus/controls/steppers.styl",
+		"/C/Sites/muzui/docs/controls/steppers.html",
+		"/C/Sites/muzui/docs/controls/edit-views.html",
+		"/C/Sites/muzui/js/ghost.js",
+		"/C/Sites/muzui/stylus/bars/nav.styl",
+		"/C/Sites/muzui/docs/controls/segmentedcontrols.html",
+		"/C/Sites/muzui/stylus/vars.styl",
+		"/C/Sites/muzui/css/icons-and-images.css",
+		"/C/Sites/muzui/stylus/controls/segmentedcontrols.styl",
+		"/C/Sites/muzui/stylus/apple-reset.styl",
+		"/C/Sites/muzui/.git/COMMIT_EDITMSG",
+		"/C/Sites/muzui/img/icons/quick_action/ren.sh",
+		"/C/Sites/muzui/img/icons/tab_bar/ren.sh",
+		"/C/Sites/muzui/img/icons/navigation/ren.sh",
+		"/C/ionic/ionicons.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+		"/C/Users/Alien/Downloads/Compressed/pulltorefresh.js-master/demos/index.umd.min.js",
+		"/C/Sites/muzui/docs/views/table.html",
+		"/C/Sites/muzui/index.html",
+		"/C/Sites/muzui/docs/views/tables.html",
+		"/C/Sites/muzui/docs/views/grouped.html",
+		"/C/Sites/muzui/docs/views/alerts.html",
+		"/C/Users/Alien/Downloads/Compressed/pulltorefresh.js-master/demos/basic-pointer-events.html",
+		"/C/Ruby26/lib/ruby/gems/2.6.0/gems/activestorage-5.2.3/app/javascript/activestorage/blob_upload.js",
+		"/C/Sites/node_modules/caniuse-lite/data/features/blobbuilder.js",
+		"/C/Sites/node_modules/caniuse-lite/data/features/bloburls.js",
+		"/C/$Recycle.Bin/S-1-5-21-2997815771-2241328347-2920052478-1002/$RBPSSYV/apps/shared/js/blobview.js",
+		"/C/Program Files/nodejs/node_modules/npm/node_modules/node-fetch-npm/src/blob.js",
+		"/C/ionic/ionicons.com/ionicons.designerpack/.DS_Store",
+		"/C/Sites/muzui/docs/index.html",
+		"/C/Sites/muzui/docs/main.html",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/typescript/lib/lib.dom.d.ts",
+		"/C/ionic/ionicons.com/index.htm",
+		"/C/Users/Alien/Downloads/Compressed/pulltorefresh.js-master/dist/index.js",
+		"/C/ionic/ionicons.com/v4/index.htm",
+		"/C/ionic/ionicons.com/build/p-11280fc2.system.js",
+		"/C/human-ios/developer.apple.com/account/resources/index.htm.txt",
+		"/C/ionic/ionicons.com/v4/build/p-11280fc2.system.js",
+		"/C/Sites/muzui/js/ghost.ts",
+		"/C/Copied/human/ios design/developer.apple.com/design/human-interface-guidelines/ios/app-architecture/launching/index.html",
 		"/C/Sites/muzui/docs/bars/nav.html",
+		"/C/Sites/muzui/docs/controls/slider.html",
+		"/C/Sites/muzui/docs/controls/switches.html",
+		"/C/Sites/muzui/docs/controls/text-fields.html",
 		"/C/Sites/muzui/docs/bars/search.html",
 		"/C/Sites/muzui/docs/bars/tab.html",
 		"/C/Sites/muzui/docs/bars/tool.html",
+		"/C/Sites/muzui/docs/controls/buttons.html",
+		"/C/Sites/muzui/README.md",
 		"/C/Sites/muzui/js/navigator.js",
+		"/C/Sites/muzui/js/router.js",
+		"/C/Sites/muzui/stylus/page.styl",
+		"/C/Sites/muzui/js/app.js",
+		"/C/Sites/muzui/stylus/animations.styl",
+		"/C/Sites/muzui/js/navig2.js",
+		"/C/human-ios/developer.apple.com/assets/styles/localnav.css",
+		"/C/human-ios/developer.apple.com/assets/styles/global.dist.css",
+		"/C/human-ios/developer.apple.com/assets/styles/globalnav.css_1",
+		"/C/human-ios/developer.apple.com/assets/styles/globalnav.css",
+		"/C/Sites/muzui/css/app.css",
+		"/C/Sites/muzui/stylus/views/tables.styl",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/interactjs/index.ts",
+		"/C/Sites/node_modules/caniuse-lite/data/features/web-animation.js",
+		"/C/Users/Alien/AppData/Local/Google/Google Web Designer/webapp/web-animations-next-lite.min.js",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/docs/intro.md",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/ISSUE_TEMPLATE.md",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/README.md",
+		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/interactjs/index.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/index.styl",
+		"/C/Sites/muzui/docs/views/split.html",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/relativeToBaseDir.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/isPathAbsolute.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/Readme.md",
+		"/C/Sites/muzui/stylus/font-load.styl",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/bin/stylus",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/nodes/index.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/nodes/function.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/nodes/string.js",
+		"/C/Sites/muzui/css/font-load.css",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/index.js",
+		"/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/cache/index.js",
 		"/C/Sites/muzui/js/view.js",
 		"/C/Sites/muzui/stylus/typo.styl",
 		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/build/backbone.viewstack.js",
 		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/README.md",
-		"/C/Sites/muzui/docs/views/alerts.html",
 		"/C/Sites/muzui/stylus/controls/text-fields.styl",
-		"/C/Sites/muzui/stylus/views/tables.styl",
-		"/C/Sites/muzui/js/app.js",
 		"/C/Sites/muzui/stylus/views/alerts.styl",
 		"/C/Users/Alien/AppData/Local/Silverlake Software LLC/Velocity/Docsets/Dash/TypeScript.docset/Contents/Resources/LICENSE",
 		"/C/Users/Alien/Downloads/Compressed/KidkArolis-location-bar-v3.0.1-0-g38a1ae9.tar/KidkArolis-location-bar-v3.0.1-0-g38a1ae9/KidkArolis-location-bar-38a1ae9/README.md",
@@ -841,112 +870,35 @@
 		"/C/Windows/SystemApps/Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy/js/navigator.js",
 		"/C/Program Files/Adobe/Adobe Creative Cloud/BehancePanel/resource/ui/resources/js/controller/router.js",
 		"/C/Program Files/B2G/b2g-desktop-profile-master/webapps/calendar.gaiamobile.org/application/js/router.js",
-		"/C/Sites/muzui/js/router.js",
 		"/C/Users/Alien/Downloads/Compressed/tildeio-router.js-v6.2.5-6-g5adbc7f.tar/tildeio-router.js-v6.2.5-6-g5adbc7f/tildeio-router.js-5adbc7f/README.md",
-		"/C/Users/Alien/Downloads/Compressed/taye-interact.js-v1.2.5-1238-g4fd4fdf.tar/taye-interact.js-v1.2.5-1238-g4fd4fdf/taye-interact.js-4fd4fdf/README.md",
 		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/README.md",
-		"/C/Sites/muzui/js/ghost.js",
-		"/C/Sites/muzui/stylus/bars/nav.styl",
-		"/C/Sites/muzui/stylus/page.styl",
 		"/C/Program Files/nodejs/node_modules/npm/node_modules/es6-promise/dist/es6-promise.js",
 		"/C/Program Files/heroku cli/client/node_modules/bluebird/js/release/promise.js",
 		"/C/Sites/rms/brick-select/bower_components/brick/dist/es6-promise/promise.js",
-		"/C/Sites/muzui/docs/views/table.html",
 		"/C/Sites/muzui/stylus/controls/switches.styl",
-		"/C/Sites/muzui/docs/views/grouped.html",
-		"/C/Sites/muzui/stylus/vars.styl",
 		"/C/Sites/muzui/stylus/controls/buttons.styl",
 		"/C/Sites/muzui/docs/views/typa.html",
 		"/C/Sites/muzui/docs/edit/js/editor.js",
 		"/C/Sites/node_modules/caniuse-lite/data/features/document-execcommand.js",
-		"/C/Sites/muzui/docs/controls/buttons.html",
-		"/C/Sites/muzui/docs/views/tables.html",
-		"/C/Sites/muzui/docs/controls/text-fields.html",
 		"/C/Sites/muzui/img/demo/right.svg",
 		"/C/Sites/muzui/docs/view.html",
 		"/C/Sites/muzui/stylus/views.styl",
-		"/C/Sites/muzui/stylus/app.styl",
 		"/C/Sites/muzui/stylus/controls.styl",
-		"/C/Sites/muzui/docs/controls/switches.html",
-		"/C/Sites/muzui/docs/controls/steppers.html",
-		"/C/Sites/muzui/stylus/controls/steppers.styl",
 		"/C/Sites/muzui/stylus/controls/slider.styl",
-		"/C/Sites/muzui/docs/controls/segmentedcontrols.html",
-		"/C/Sites/muzui/stylus/controls/segmentedcontrols.styl",
-		"/C/Sites/muzui/docs/controls/slider.html",
 		"/C/Sites/muzui/docs/controls/contextmenu.html",
 		"/C/Sites/muzui/stylus/controls/contextmenu.styl",
 		"/C/Sites/vix/js/bundle.js",
 		"/C/Sites/muzui/stylus/buttons/buttons.styl",
-		"/C/Sites/muzui/docs/main.html",
 		"/C/Sites/muzui/stylus/bars.styl",
 		"/C/Sites/muzui/stylus/bars/search.styl",
 		"/C/Sites/muzui/stylus/bars/tool.styl",
 		"/C/Sites/muzui/stylus/bars/tab.styl",
 		"/C/Sites/muzui/docs/bars/navbar.html",
-		"/C/Sites/rwarriui/css/raw/normalize/typography.styl",
-		"/C/Sites/rwarriui/css/raw/font-load.styl",
-		"/C/Sites/rwarriui/css/raw/normalize/page.styl",
-		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/app.js",
-		"/C/Sites/muzui/sw.js",
-		"/C/Sites/muzui/view.js",
-		"/C/Sites/muzui/stylus/view.styl",
-		"/C/Sites/muzui/LICENSE",
-		"/C/Sites/muzui/img/chevron_right.svg",
-		"/C/Sites/muzui/navbar.html",
-		"/C/Sites/muzui/navbar - Copy.html",
-		"/C/Users/Alien/Downloads/Compressed/stephenhutchings-written-v0.1.8-0-gaf50dd7.tar/stephenhutchings-written-v0.1.8-0-gaf50dd7/stephenhutchings-written-af50dd7/lib/written.min.js",
-		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/src/backbone.viewstack.coffee",
-		"/C/Users/Alien/Downloads/guides/guides/source/routing.md",
-		"/C/Program Files/PostgreSQL/10/pgAdmin 4/docs/en_US/html/_static/underscore-1.3.1.js",
-		"/C/Users/Alien/Downloads/guides/guides/source/action_view_overview.md",
-		"/C/Sites/muzui/router.js",
-		"/C/Sites/muzui/model.js",
-		"/C/Sites/rwarrims-beta/app/views/layouts/application.html.erb",
-		"/C/Sites/muzui/js/libs/l10n.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_class_methods.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_errors.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_local_storage.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/null_persistence.js",
-		"/C/Sites/muzika/js/app (2).js",
-		"/C/Sites/muzika/js/app.js",
-		"/C/Sites/muzui/index.html",
-		"/C/Sites/muzui/fonts",
-		"/C/Sites/muzui/types",
-		"/C/Copied/human/ios design/developer.apple.com/design/human-interface-guidelines/ios/overview/themes/index.html",
-		"/C/Copied/human/ios design/developer.apple.com/design/human-interface-guidelines/ios/overview/index.html",
-		"/C/Copied/human/ios design/index.html",
-		"/C/Copied/human/index.html",
-		"/C/Copied/Human Design Interface/design/human-interface-guidelines/ios/index.html",
-		"/C/Sites/site/.git/COMMIT_EDITMSG",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/model_rest.js",
-		"/C/Users/Alien/Downloads/Compressed/benpickles-js-model-v0.11.0-58-g5feb0bd.tar/benpickles-js-model-v0.11.0-58-g5feb0bd/benpickles-js-model-5feb0bd/src/collection.js",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/TypeScript/Preferences.sublime-settings",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Program Files/heroku cli/client/node_modules/@heroku-cli/plugin-pg-v5/lib/setter.js",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/no-setter-return.js",
-		"/C/Users/Alien/AppData/Roaming/Sublime Text 3/Packages/node_modules/eslint/lib/rules/object-shorthand.js",
-		"/C/Users/Alien/Desktop/legacies/hello/w3shools/js/js_validation.html",
-		"/C/Sites/muzui/n.js",
-		"/C/Sites/muzui/manifest.json",
-		"/C/Sites/muzui/features.json",
-		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/index.html",
-		"/C/Users/Alien/Downloads/Compressed/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665.tar/Creative-Licence-Digital-backbone.viewstack-v0.9.8-0-g6639665/Creative-Licence-Digital-backbone.viewstack-6639665/demo/public/js/vendor.js",
-		"/C/Sites/extraterrestal/manifest.json",
-		"/C/Sites/extraterrestal/index.html",
-		"/C/Sites/extraterrestal/js/app.js",
-		"/C/Sites/muzui/muzui.sublime-project",
-		"/C/Sites/rwarrims-beta/.git/COMMIT_EDITMSG",
-		"/C/Sites/rwarrims-beta/app/controllers/sessions_controller.rb",
-		"/C/Users/Alien/Downloads/Compressed/codemirror/codemirror-5.51.0/mode/rst/rst.js",
-		"/C/Sites/rwarrims-beta/app/controllers/admin/leaves_controller.rb",
-		"/C/Sites/rwarrims-beta/app/controllers/leaves_controller.rb",
-		"/C/Sites/rwarrims-beta/app/views/admin/attendances/_panel.html.erb"
+		"/C/Sites/rwarriui/css/raw/normalize/typography.styl"
 	],
 	"find":
 	{
-		"height": 40.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
@@ -957,9 +909,59 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"mer",
+			"/*",
+			"merge",
+			"\\bh.\\b.*{(.|\\n)*}",
+			"\\bh.\\b",
+			".*_(.*).png",
+			"<tr>\\n.*\\n.*\\n.*<td>(.*)</td>\\n.*</tr>",
+			"<td><span class=\"icon quick_action-(.*)\"></span>/td>",
+			"<td><span class=\"icon quick_action-task\"></span>/td>",
+			"<img src=\".*(.*)_icons/QuickActions_(.*).png\"(.*)><",
+			"(.*td.*)\\n(.*td.*)\\n(.*td.*)\\n(.*td.*)",
+			"<a href=.*>(\\w*)</a>",
+			"icons tab",
+			"rename",
+			".*_(.*).png",
+			"rename",
+			".*_(.*).png",
+			"<tr>\\n.*\\n.*\\n.*<td>(.*)</td>\\n.*</tr>",
+			"<td><span class=\"icons tab_bar-(.*)\"></span>/td>",
+			"<a href=.*>(\\w*)</a>",
+			"(.*td.*)\\n(.*td.*)\\n(.*td.*)\\n(.*td.*)",
+			"<img src=\".*(.*)_icons/TabBar_(.*).png\"(.*)><",
+			"(.*td.*)\\n(.*td.*)\\n(.*td.*)\\n(.*td.*)",
+			"<a href=.*>(\\w*)</a>",
+			"<img src=\".*(.*)_icons/TabBar_(.*).png\"(.*)><",
+			"span  class",
+			"  width.*\">",
+			"rename",
+			"ren",
+			".*_(.*).png",
+			"(.*)\\n",
+			"<tr>\\n.*\\n.*\\n.*<td>(.*)</td>\\n.*</tr>",
+			"<img(.*)\">",
+			"<a href=.*>(\\w*)</a>",
+			"<img src=\".*(.*)_icons/Navigation_(.*).png\"(.*)><",
+			"Hello",
+			"<img src=\".*(.*)_icons/Navigation_(.*).png\"(.*)><",
+			"(.*td.*)\\n(.*td.*)\\n(.*td.*)\\n(.*td.*)",
+			"mainElement",
+			"pointer",
+			"PointerEv",
+			"-site.*js",
+			"stack",
+			"(\\w+):( )|();()",
+			"stack",
+			"show\\(",
+			"show(",
+			"=\"/",
+			"/data",
+			"../data",
 			"/data",
 			"dis",
 			"scr",
@@ -1037,24 +1039,7 @@
 			"/?(.*)/?",
 			"element",
 			"data",
-			",\n",
-			"Event",
-			"targed",
-			"new_reco",
-			"obj",
-			"associa",
-			"plural",
-			"valid",
-			"model",
-			"console",
-			"get",
-			"ease",
-			"(\\n|\\t|\\r| ){1,}",
-			"(\\n|\\t|\\r| ){2,}",
-			"\\n",
-			"\"",
-			"console",
-			"extraterrestal"
+			",\n"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1062,6 +1047,47 @@
 		"regex": true,
 		"replace_history":
 		[
+			"mv $0 \\l$1.png",
+			"mv $0 \\l$1",
+			"mv $1 \\l$1",
+			"$1",
+			"<td><span class=\"icon quick_action-$1\"></span>",
+			"<td><span class=\"icon quick_action-$1\"></span>/td>",
+			"<span class=\"icon quick_action-\\l$2\"></span>",
+			"$1\\n$2\\n$4",
+			"$1",
+			"icon tab",
+			"mv",
+			"rename $0 \\l$1.png",
+			"mv",
+			"rename $1 \\l$1.png",
+			"$1",
+			"<td><span class=\"icons tab_bar-$1\"></span>",
+			"$1",
+			"$1\\n$2\\n$4",
+			"<span class=\"icons tab_bar-\\l$2\"></span>",
+			"$1\\n$2\\n$4",
+			"$1",
+			"<span class=\"icons tab_bar-$2\"></span>",
+			"span class",
+			">",
+			"mv",
+			"rename",
+			"ren $0 \\l$1.png",
+			"$1 ",
+			"$1",
+			"<span $1\"></span>",
+			"$1",
+			"<img class=\"icon navigation-\\l$2\" $3><",
+			"\\l$0",
+			"\\l$1",
+			"<img class=\"icon navigation-\\l\\$2\" $3><",
+			"<img class=\"icon navigation-$2\" $3><",
+			"$1\\n$2\\n$4",
+			"$1$2",
+			"=\"../../",
+			"../data",
+			"/data",
 			"../data",
 			"",
 			"$1$2",
@@ -1115,7 +1141,7 @@
 	"groups":
 	[
 		{
-			"selected": 9,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -1146,158 +1172,6 @@
 							}
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "docs/views/split.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2160,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								2160
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<div class=\"view lead\">",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"typescript_plugin_format_options":
-							{
-								"convertTabsToSpaces": false,
-								"indentSize": 2,
-								"tabSize": 2
-							}
-						},
-						"translation.x": 0.0,
-						"translation.y": 988.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "docs/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2057,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								449,
-								449
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "docs/main.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 624,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								144,
-								144
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "stylus/bars/nav.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								827,
-								827
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 551.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "css/app.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 911125,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1305,55 +1179,56 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/relativeToBaseDir.js",
+					"buffer": 1,
+					"file": "docs/icons-and-images/system-icons.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 11191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								79
+								98,
+								98
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/bower/lib/util/isPathAbsolute.js",
+					"buffer": 2,
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 111,
+						"buffer_size": 925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								76,
-								0
+								616,
+								576
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"use_tab_stops": false
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1363,61 +1238,66 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/Readme.md",
+					"buffer": 3,
+					"file": "js/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5991,
+						"buffer_size": 4544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2885,
-								2885
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1824.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "/C/Users/Alien/AppData/Roaming/npm/node_modules/stylus/lib/functions/url.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4197,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3099,
-								3099
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true,
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false,
 							"use_tab_stops": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1893.0,
+						"translation.y": 1549.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/navig2.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5217,
+								5217
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 552.0,
+						"translation.y": 3546.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1428,11 +1308,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 28.0
+		"height": 69.0
 	},
 	"input":
 	{
-		"height": 43.0
+		"height": 209.0
 	},
 	"layout":
 	{
@@ -1459,7 +1339,7 @@
 	"menu_visible": true,
 	"output.doc":
 	{
-		"height": 132.0
+		"height": 209.0
 	},
 	"output.errorlist":
 	{
@@ -1467,7 +1347,7 @@
 	},
 	"output.exec":
 	{
-		"height": 33.0
+		"height": 32.0
 	},
 	"output.find_results":
 	{
@@ -1477,11 +1357,11 @@
 	{
 		"height": 463.0
 	},
-	"pinned_build_system": "Packages/Ruby/Ruby.sublime-build",
+	"pinned_build_system": "Packages/TypeScript/TypeScript.sublime-build",
 	"project": "muzui.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 404.0
 	},
 	"save_all_on_build": true,
 	"select_file":

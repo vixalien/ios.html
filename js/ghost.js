@@ -70,7 +70,6 @@ function Ghost(from, to, time, fps) {
     function upframe(a) {
         if (frames == fps) {
             clearInterval(a);
-            from.style.backgroundColor = "white";
             console.log({ frames: frames, from: from, to: to, from_box: from_box, to_box: to_box, fps: fps, time: time, times: times });
         }
         else {

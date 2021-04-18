@@ -48,8 +48,9 @@
 .nav-bar a.back:before {
   content: 'H';
   position: absolute;
-  left: -22px;
+  left: -17px;
   top: -5px;
+  transform: scale(0.75);
   background-image: url("/img/chevron_right.svg");
   width: 20px;
   height: 30px;
@@ -58,12 +59,14 @@
   color: transparent;
   display: inline-block;
   transition: 0.12s;
-  -webkit-mask-size: cover;
-  mask-size: cover;
-  background: url("/img/chevron_right.svg");
-  background: #000;
   mask-image: url("/img/chevron_right.svg");
+  mask-size: auto;
+  mask-repeat: no-repeat;
+  mask-position: center;
   -webkit-mask-image: url("/img/chevron_right.svg");
+  -webkit-mask-size: auto;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
   background-color: #1c87ff;
 }
 .view.lead .lead-title {
