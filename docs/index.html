@@ -72,7 +72,8 @@
 		for (var i = 0; i < hrefs.length; i++) {
 			hrefs[i].onclick = function(e) {
 				e.preventDefault();
-				var trueEl = e.path.find(e => e.hasAttribute("href"));
+				// var trueEl = e.path.find(e => e.hasAttribute("href"));
+				var trueEl = e.currentTarget;
 				// On navigate, add the class secondary
 				console.log("Navigated To",trueEl.getAttribute("href"));
 				document.querySelector(".views").classList.add("collapsed");
